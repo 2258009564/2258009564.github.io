@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>组合数板子</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E7%BB%84%E5%90%88%E6%95%B0%E6%9D%BF%E5%AD%90</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E7%BB%84%E5%90%88%E6%95%B0%E6%9D%BF%E5%AD%90</guid>
-    <description><![CDATA[ const int MAXN = 1e7; const int MOD = 1e9 + 7; vector&lt;int&gt; fact(MAXN), invfact(MAXN); bool inited = 0; int ksm(int base, int exp) { int ans = 1; while (exp) { if (exp &amp; 1) { ans = ans * base % MOD; } base = base * base % MOD; exp &gt;&gt;= 1; } return ans; } int inv(int x) { return ksm(x, ... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 15:53:06 GMT</pubDate>
+    <title>大创中期答辩演讲</title>
+    <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E5%A4%A7%E5%88%9B/%E5%A4%A7%E5%88%9B%E4%B8%AD%E6%9C%9F%E7%AD%94%E8%BE%A9%E6%BC%94%E8%AE%B2</link>
+    <guid>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E5%A4%A7%E5%88%9B/%E5%A4%A7%E5%88%9B%E4%B8%AD%E6%9C%9F%E7%AD%94%E8%BE%A9%E6%BC%94%E8%AE%B2</guid>
+    <description><![CDATA[ 各位评委、老师，大家好。 我叫梁震宇 ，是“理智先锋娱乐互动工作室”的负责人 。今天，我将向大家展示一个将中国古代科学智慧与现代游戏体验深度融合的创业项目。 (幻灯片切换：项目背景与团队实力) 我们想解决一个问题：如何让今天的年轻人，尤其是学生，真正爱上科学，同时深刻感受我们自己文化的魅力？传统课本的知识是静态的，而历史题材的游戏又常常忽略了其中蕴含的科学光芒。 我们的答案，是创造一种全新的互动体验。为此，我们立足于北宋科学家沈括的科学巨著——《梦溪笔谈》 。我们不仅仅是讲述历史，而是邀请玩家化身时空旅者，亲手去“复现”那些沉睡在古籍中的科学实验 。 我们的核心价值，就是将古风叙事与物理知识结... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item><item>
-    <title>很杂乱的板子</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E5%BE%88%E6%9D%82%E4%B9%B1%E7%9A%84%E6%9D%BF%E5%AD%90</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E5%BE%88%E6%9D%82%E4%B9%B1%E7%9A%84%E6%9D%BF%E5%AD%90</guid>
-    <description><![CDATA[ // 大数加法 string largeadd(string &amp;a, string &amp;b) { if (a.size() &lt; b.size()) swap(a, b); int p = 0; for (size_t i = 0; i &lt; b.size(); i++) { int ai = a[a.size() - i - 1] - &#039;0&#039;; int bi = b[b.size() - i - 1] - &#039;0&#039;; int sum = ai + bi + p; if (sum &gt;= 10) { p = 1; sum -= 1... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 15:52:55 GMT</pubDate>
+    <title>大创答辩</title>
+    <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E5%A4%A7%E5%88%9B/%E5%A4%A7%E5%88%9B%E7%AD%94%E8%BE%A9</link>
+    <guid>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E5%A4%A7%E5%88%9B/%E5%A4%A7%E5%88%9B%E7%AD%94%E8%BE%A9</guid>
+    <description><![CDATA[ 第一章 项目目的与团队能力验证 1. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item><item>
-    <title>BEGINNING</title>
-    <link>https://quartz.jzhao.xyz/BEGINNING</link>
-    <guid>https://quartz.jzhao.xyz/BEGINNING</guid>
-    <description><![CDATA[ heading 1 heading 2 heading 3 heading 4 heading 5 heading 6 bold italic bullet item 1 bullet item 2 nested item bullet item 1 no.1 no.2 学习笔记 link text Highlight Text ～～ dont know why i cant use strikethrough ～～ checkbox put ‘x’ Node 1 %这是一个注释% 以下是 latex 教程 + - \times \div = \neq (a + b) \{a + b\} [a... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+    <title>python</title>
+    <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/python</link>
+    <guid>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/python</guid>
+    <description><![CDATA[ os 模块的作用： os 是 Python 的标准库模块，用于与操作系统交互，核心功能包括： 路径操作： os.path.join(path1, path2)：将路径拼接成系统兼容格式（自动处理 / 或 \）。 例如：os.path.join(&quot;data&quot;, &quot;train&quot;) → &quot;data/train&quot;（Linux）或 &quot;data\\train&quot;（Windows）。 目录遍历： os.listdir(path)：列出指定路径下的所有文件和子目录名称（返回字符串列表）。 文件/目录管理： 创建、删除、重命名文件/目... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item><item>
-    <title>Quick LaTeX readme</title>
-    <link>https://quartz.jzhao.xyz/Quick-LaTeX-readme</link>
-    <guid>https://quartz.jzhao.xyz/Quick-LaTeX-readme</guid>
-    <description><![CDATA[  ShorthandStringShorthandStringShorthandStringsq\sqrt{}bb\mathbb{}bf\mathbf{}te\text{}inf\inftybi\binom{#cursor}{#tab}cd\cdotqu\quadti\timesal\alphabe\betaga\gammaGa\Gammade\deltaDe\Deltaep\epsilonze\zetaet\etath\thetaTh\Thetaio\iotaka\kappala\lambdaLa\Lambdamu\munu\nuxi\xiXi\Xipi\piPi\Pirh\rhosi\si... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+    <title>神经网络与深度学习笔记</title>
+    <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
+    <guid>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
+    <description><![CDATA[ 神经网络 如同大脑需要神经元配合一样，深度学习也需要相应的网络。一个典型的神经网络包含一层层的节点，每一层节点的输入都是前一层或多层的输出（有点像动态规划）。现在的神经网络可以达到几十层甚至上千层，我们称之为深度神经网络。 认识这个世界 人之所以能够区分生活中常见的事物，是因为我们感知的信号传递给了大脑；大脑将复杂的信号处理分类，最后得到正确的结果。 计算机也是如此。在学习过程中，它将大量的不同物体之间的异同点变成神经网络的参数。当你给计算机一张动物图片时，它就能通过对图片的分析，告诉你它是不是小猫。 深度学习就这样通过构建多层的人工神经网络来模拟人类大脑的信息处理和学习机制，从海量的数据中学... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item><item>
-    <title>有感</title>
-    <link>https://quartz.jzhao.xyz/%E6%9C%89%E6%84%9F</link>
-    <guid>https://quartz.jzhao.xyz/%E6%9C%89%E6%84%9F</guid>
-    <description><![CDATA[ 一千天啦～祝贺祝贺，按照markdown格式这里可以插入一张图片，点开能看到我们亲嘴子 感觉朋友圈子里谈到一千天的人也不多吧，亮亮那个闷骚没有发什么长篇大论，王健涵我也不知道一千天没有，打完这段话我就去问问 上大学半年 我们对很多事情都有了新的体会，聊天的内容也越来越沉重，越来越现实。大概对于我而言，能跟有些人说上话真的得得益于同学这层纽带，好比在社会上见了宇轩我得叫周总，但是有同学情谊在我居然可以叫他儿子。 之前看到过一个视频，说建议男生在大学谈一段恋爱，因为这是”翻盘的最好机会，大学里的白富美会因为你唱歌好听跟你约会，然而出了社会没人会搭理你”，我们还一起讨论过这个视频，得出的结论是这种行... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+    <title>1227</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/1227</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/1227</guid>
+    <description><![CDATA[ void solve() { int n, k; cin &gt;&gt; n &gt;&gt; k; int maxnum = 0; vector&lt;int&gt; h(n), k = h; for (int i = 0; i &lt; n; i++) { cin &gt;&gt; h[i] &gt;&gt; k[i]; maxnum = max({maxnum, h[i], k[i]}); } int l = 1, r = maxnum, m, ans; while (l &lt;= r) { m = l + (r - l) / 2; auto check = [&amp;]() { ... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item><item>
-    <title>P4</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E8%B4%AA%E5%BF%83%E5%A5%97%E8%B7%AF/P4</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E8%B4%AA%E5%BF%83%E5%A5%97%E8%B7%AF/P4</guid>
-    <description><![CDATA[ 题目1 给你一个数组 对于其中的奇数 你可以让他*＝ 2 对于其中的偶数 你可以让他 /= 2 记这个数组最大值与最小值之差为 偏移量 返回偏移量的最小值 思路： 对于所有的奇数 我们可以先 *＝ 2 让它获得被除的机会 接下来 我们只需要用multiset 维护这个数组 然后不断对最大值除以二 并记录偏移量即可 int n; cin &gt;&gt; n; vector&lt;int&gt; v(n); for (int i = 0; i &lt; n; i++) cin &gt;&gt; v[i]; multiset&lt;int&gt; mst; for (int i = 0; i &l... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 10:42:02 GMT</pubDate>
+    <title>503</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/503</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/503</guid>
+    <description><![CDATA[ void solve() { int n, m; cin &gt;&gt; n &gt;&gt; m; vector&lt;int&gt; v(n + 2); for (int i = 1; i &lt;= n; i++) cin &gt;&gt; v[i]; for (int i = n; i &gt;= 1; i--) v[i] -= v[i - 1]; struct datas { int d, s, t; }; vector&lt;datas&gt; k(m + 1); for (int i = 1; i &lt;= m; i++) cin &gt;&gt; k[i].d &gt;&g... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item><item>
-    <title>P2</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E8%B4%AA%E5%BF%83%E5%A5%97%E8%B7%AF/P2</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E8%B4%AA%E5%BF%83%E5%A5%97%E8%B7%AF/P2</guid>
-    <description><![CDATA[ 题目1 现需要将一根长为正整数n的竹子砍为若干段 每段长度均为正整数 请返回每段竹子长度的最大乘积是多少 答案需要对1000000007取模 前置知识：模下快速幂 观察得到： n = 4 -&gt; 2 * 2 -&gt; 4 % 3 = 1 n = 5 -&gt; 3 * 2 -&gt; 5 % 3 = 2 n = 6 -&gt; 2 * 2 -&gt; 6 % 3 = 0 n = 7 -&gt; 3 * 2 * 2 -&gt; 7 % 3 = 1 n = 8 -&gt; 3 * 3 * 2 -&gt; 8 % 3 = 2 n = 9 -&gt; 3 * 3 * 3 -&gt; 9 % 3 ... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 10:42:01 GMT</pubDate>
+    <title>5407</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/5407</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/5407</guid>
+    <description><![CDATA[ void solve() { auto check = [&amp;]() -&gt; bool { }; }. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item><item>
-    <title>P1</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E8%B4%AA%E5%BF%83%E5%A5%97%E8%B7%AF/P1</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E8%B4%AA%E5%BF%83%E5%A5%97%E8%B7%AF/P1</guid>
-    <description><![CDATA[ 题目1 题目1 题目1 题目1 题目1 题目1 P2. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 10:42:00 GMT</pubDate>
+    <title>562</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</guid>
+    <description><![CDATA[ void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; }. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item><item>
     <title>判断整除 数位法</title>
     <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E5%88%A4%E6%96%AD%E6%95%B4%E9%99%A4-%E6%95%B0%E4%BD%8D%E6%B3%95</link>
     <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E5%88%A4%E6%96%AD%E6%95%B4%E9%99%A4-%E6%95%B0%E4%BD%8D%E6%B3%95</guid>
     <description><![CDATA[ 对于所有正整数 1都是因子 数位和是三的倍数 那么3就是因子 末尾是5或者0 5就是因子 对于7 一个n位数(n &gt;= 6) 有abbbccc → a （三个连续的b可以和三个连续的c约掉) 判断a是否可以整除7即可 数位和是9的倍数 那么9就是因子. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 10:41:59 GMT</pubDate>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item><item>
-    <title>大学物理</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E7%BB%A9%E7%82%B9%E7%9A%84%E5%A6%A5%E5%8D%8F/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E7%BB%A9%E7%82%B9%E7%9A%84%E5%A6%A5%E5%8D%8F/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86</guid>
-    <description><![CDATA[ 质点运动学 位移 速度 加速度 位置矢量(位矢) 建立直角坐标系后，物体位置用坐标A(x, y, z) 表示 向量\vec{r} = \vec{OA} 就称为 位置矢量 也记作 \vec{r} = x\vec{i} +y \vec{j} + z \vec{k} 运动方程 质点坐标x, y, z 随 t 的变化关系，将 t 消掉即可 例：已知质点运动学方程是 \vec{r} = 4t^{2} \vec{i} + (2t +3)\vec{j} 求质点的运动方程 x = 4t^{2}, y = 2t +3 \to t = \frac{y - 3}{2} \to x = 4(\frac{y - 3}{... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 10:41:29 GMT</pubDate>
+    <title>学习笔记</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
+    <description><![CDATA[ 好用的小操作 求数位之和 int dig(int x) { return (x + 8) % 9 + 1; // 输入123 返回6 } 原理： 任意一个数字 x 可以写成它的各位数字的加权和，形式如下： x = a_k * 10^k + a_(k-1) * 10^(k-1) + .. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item>
     </channel>
   </rss>
