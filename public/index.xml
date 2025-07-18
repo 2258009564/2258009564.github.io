@@ -5,6 +5,66 @@
       <link>https://quartz.jzhao.xyz</link>
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
-      
+      <item>
+    <title>1</title>
+    <link>https://quartz.jzhao.xyz/1</link>
+    <guid>https://quartz.jzhao.xyz/1</guid>
+    <description><![CDATA[ // 大数加法 string largeadd(string &amp;a, string &amp;b) { if (a.size() &lt; b.size()) swap(a, b); int p = 0; for (size_t i = 0; i &lt; b.size(); i++) { int ai = a[a.size() - i - 1] - &#039;0&#039;; int bi = b[b.size() - i - 1] - &#039;0&#039;; int sum = ai + bi + p; if (sum &gt;= 10) { p = 1; sum -= 1... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item><item>
+    <title>1227</title>
+    <link>https://quartz.jzhao.xyz/ACW2024/%E4%BA%8C%E5%88%86/1227</link>
+    <guid>https://quartz.jzhao.xyz/ACW2024/%E4%BA%8C%E5%88%86/1227</guid>
+    <description><![CDATA[ void solve() { int n, k; cin &gt;&gt; n &gt;&gt; k; int maxnum = 0; vector&lt;int&gt; h(n), k = h; for (int i = 0; i &lt; n; i++) { cin &gt;&gt; h[i] &gt;&gt; k[i]; maxnum = max({maxnum, h[i], k[i]}); } int l = 1, r = maxnum, m, ans; while (l &lt;= r) { m = l + (r - l) / 2; auto check = [&amp;]() { ... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item><item>
+    <title>503</title>
+    <link>https://quartz.jzhao.xyz/ACW2024/%E4%BA%8C%E5%88%86/503</link>
+    <guid>https://quartz.jzhao.xyz/ACW2024/%E4%BA%8C%E5%88%86/503</guid>
+    <description><![CDATA[ void solve() { int n, m; cin &gt;&gt; n &gt;&gt; m; vector&lt;int&gt; v(n + 2); for (int i = 1; i &lt;= n; i++) cin &gt;&gt; v[i]; for (int i = n; i &gt;= 1; i--) v[i] -= v[i - 1]; struct datas { int d, s, t; }; vector&lt;datas&gt; k(m + 1); for (int i = 1; i &lt;= m; i++) cin &gt;&gt; k[i].d &gt;&g... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item><item>
+    <title>5407</title>
+    <link>https://quartz.jzhao.xyz/ACW2024/%E4%BA%8C%E5%88%86/5407</link>
+    <guid>https://quartz.jzhao.xyz/ACW2024/%E4%BA%8C%E5%88%86/5407</guid>
+    <description><![CDATA[ void solve() { auto check = [&amp;]() -&gt; bool { }; }. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item><item>
+    <title>562</title>
+    <link>https://quartz.jzhao.xyz/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</link>
+    <guid>https://quartz.jzhao.xyz/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</guid>
+    <description><![CDATA[ void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; }. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item><item>
+    <title>BEGINNING</title>
+    <link>https://quartz.jzhao.xyz/BEGINNING</link>
+    <guid>https://quartz.jzhao.xyz/BEGINNING</guid>
+    <description><![CDATA[ heading 1 heading 2 heading 3 heading 4 heading 5 heading 6 bold italic bullet item 1 bullet item 2 nested item bullet item 1 no.1 no.2 学习笔记 link text Highlight Text ～～ dont know why i cant use strikethrough ～～ checkbox put ‘x’ Node 1 %这是一个注释% 以下是 latex 教程 + - \times \div = \neq (a + b) \{a + b\} [a... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item><item>
+    <title>Quick LaTeX readme</title>
+    <link>https://quartz.jzhao.xyz/Quick-LaTeX-readme</link>
+    <guid>https://quartz.jzhao.xyz/Quick-LaTeX-readme</guid>
+    <description><![CDATA[  ShorthandStringShorthandStringShorthandStringsq\sqrt{}bb\mathbb{}bf\mathbf{}te\text{}inf\inftybi\binom{#cursor}{#tab}cd\cdotqu\quadti\timesal\alphabe\betaga\gammaGa\Gammade\deltaDe\Deltaep\epsilonze\zetaet\etath\thetaTh\Thetaio\iotaka\kappala\lambdaLa\Lambdamu\munu\nuxi\xiXi\Xipi\piPi\Pirh\rhosi\si... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item><item>
+    <title>asdlfjkalsdfjklasjkf</title>
+    <link>https://quartz.jzhao.xyz/asdlfjkalsdfjklasjkf</link>
+    <guid>https://quartz.jzhao.xyz/asdlfjkalsdfjklasjkf</guid>
+    <description><![CDATA[ 喜欢你 lov u. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item><item>
+    <title>偏序集。。。</title>
+    <link>https://quartz.jzhao.xyz/%E5%81%8F%E5%BA%8F%E9%9B%86%E3%80%82%E3%80%82%E3%80%82</link>
+    <guid>https://quartz.jzhao.xyz/%E5%81%8F%E5%BA%8F%E9%9B%86%E3%80%82%E3%80%82%E3%80%82</guid>
+    <description><![CDATA[ 根据您的要求，我会用中文为您解释偏序集、格、有界格和补格。 偏序集 (Partially Ordered Set, Poset) 一个偏序集是一个集合 P 及其上的一个二元关系 \preceq，该关系满足以下三个性质： 自反性 (Reflexivity)：对于 P 中任意元素 a，都有 a \preceq a。 反对称性 (Antisymmetry)：对于 P 中任意元素 a, b，如果 a \preceq b 且 b \preceq a，那么 a = b。 传递性 (Transitivity)：对于 P 中任意元素 a, b, c，如果 a \preceq b 且 b \preceq c，那... ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item><item>
+    <title>判断整除 数位法</title>
+    <link>https://quartz.jzhao.xyz/%E5%88%A4%E6%96%AD%E6%95%B4%E9%99%A4-%E6%95%B0%E4%BD%8D%E6%B3%95</link>
+    <guid>https://quartz.jzhao.xyz/%E5%88%A4%E6%96%AD%E6%95%B4%E9%99%A4-%E6%95%B0%E4%BD%8D%E6%B3%95</guid>
+    <description><![CDATA[ 对于所有正整数 1都是因子 数位和是三的倍数 那么3就是因子 末尾是5或者0 5就是因子 对于7 一个n位数(n &gt;= 6) 有abbbccc → a （三个连续的b可以和三个连续的c约掉) 判断a是否可以整除7即可 数位和是9的倍数 那么9就是因子. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 14:44:43 GMT</pubDate>
+  </item>
     </channel>
   </rss>
