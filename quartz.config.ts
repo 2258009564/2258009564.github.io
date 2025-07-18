@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Alisa的数字花园",
-    pageTitleSuffix: "",
+    pageTitleSuffix: "想到什么写什么",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-      header: "Noto Sans SC", // 标题字体
-        body: "Noto Sans SC", // 正文字体
-        code: "JetBrains Mono", // 代码字体
+        header: "Schibsted Grotesk",
+        body: "Source Sans Pro",
+        code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
