@@ -6,11 +6,17 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>关于</title>
+    <link>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</link>
+    <guid>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</guid>
+    <description><![CDATA[ 一个学生，现阶段最喜欢做的事是躺着。. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:38:26 GMT</pubDate>
+  </item><item>
     <title>index</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description><![CDATA[ Welcome to my GitHub page! here u will find many of my crazy ideas and rubbish-like thoughts. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:16:26 GMT</pubDate>
+    <pubDate>Fri, 18 Jul 2025 16:36:58 GMT</pubDate>
   </item><item>
     <title>大创中期答辩演讲</title>
     <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E5%A4%A7%E5%88%9B/%E5%A4%A7%E5%88%9B%E4%B8%AD%E6%9C%9F%E7%AD%94%E8%BE%A9%E6%BC%94%E8%AE%B2</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</link>
     <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</guid>
     <description><![CDATA[ void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; }. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
-  </item><item>
-    <title>判断整除 数位法</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E5%88%A4%E6%96%AD%E6%95%B4%E9%99%A4-%E6%95%B0%E4%BD%8D%E6%B3%95</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E5%88%A4%E6%96%AD%E6%95%B4%E9%99%A4-%E6%95%B0%E4%BD%8D%E6%B3%95</guid>
-    <description><![CDATA[ 对于所有正整数 1都是因子 数位和是三的倍数 那么3就是因子 末尾是5或者0 5就是因子 对于7 一个n位数(n &gt;= 6) 有abbbccc → a （三个连续的b可以和三个连续的c约掉) 判断a是否可以整除7即可 数位和是9的倍数 那么9就是因子. ]]></description>
     <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item>
     </channel>
