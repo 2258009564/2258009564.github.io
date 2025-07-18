@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-      header: "Maple mono", // 标题字体
-        body: "Maple mono", // 正文字体
-        code: "Maple mono", // 代码字体
+      header: "Noto Sans SC", // 标题字体
+        body: "Noto Sans SC", // 正文字体
+        code: "JetBrains Mono", // 代码字体
       },
       colors: {
         lightMode: {
