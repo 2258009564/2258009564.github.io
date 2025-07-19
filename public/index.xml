@@ -6,11 +6,35 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>树状数组</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</guid>
+    <description><![CDATA[ 树状数组 (Binary Indexed Tree / Fenwick Tree) 树状数组是一种用于高效处理前缀和查询和单点修改的数据结构，时间复杂度为 O(log n)。 核心思想 树状数组利用二进制的性质，通过 lowbit 函数来管理区间。每个位置 i 管理的区间长度为 lowbit(i)。 lowbit 函数 int lowbit(int x) { return x &amp; (-x); // 获取 x 的二进制表示中最低位的 1 } 基本操作 初始化 class BIT { private: vector&lt;int&gt; tree; int n; public: BIT(i... ]]></description>
+    <pubDate>Sat, 19 Jul 2025 06:04:45 GMT</pubDate>
+  </item><item>
+    <title>PBDS</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</guid>
+    <description><![CDATA[ PBDS (Policy-Based Data Structures) PBDS 是 GCC 编译器提供的一套基于策略的数据结构库，包含了许多高效的数据结构，在算法竞赛中非常实用。 引入头文件 #include &lt;ext/pb_ds/assoc_container.hpp&gt; #include &lt;ext/pb_ds/tree_policy.hpp&gt; using namespace __gnu_pbds; 核心数据结构 1. ]]></description>
+    <pubDate>Sat, 19 Jul 2025 06:03:21 GMT</pubDate>
+  </item><item>
+    <title>线段树</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
+    <description><![CDATA[ 线段树 (Segment Tree) 线段树是一种用于处理区间查询和区间修改的高效数据结构，支持在 O(log n) 时间内完成各种区间操作。 核心思想 线段树是一棵完全二叉树，每个节点代表一个区间，叶子节点代表单个元素，内部节点代表子区间的合并结果。 基本性质 父节点区间 = 左子树区间 ∪ 右子树区间 对于节点 i：左儿子为 2*i，右儿子为 2*i+1 树的高度为 O(log n)，节点总数约为 4n 基础线段树（区间查询，单点修改） class SegmentTree { private: vector&lt;int&gt; tree; int n; void build(vector... ]]></description>
+    <pubDate>Sat, 19 Jul 2025 06:00:57 GMT</pubDate>
+  </item><item>
+    <title>并查集</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</guid>
+    <description><![CDATA[ 并查集 顾名思义 就是对集合的合并和查询 可以在均摊 o1 的复杂度下解决此类问题 初始化 我们需要一个 father 数组 来记录各个元素所在集合 的 代表元素 假设我们有 n 个元素 从 1 开始 那么不妨如下初始化： DSU(int n): father(n + 1) { iota(all(father), 0ll); } int find(int x) 这个函数可以查询 x 所在的集合 其实就是查出 x 的代表元素 因此 有如下递归代码： int find(int x) { if (father[x] == x) return x; else { // 继续往上查找 return fi... ]]></description>
+    <pubDate>Sat, 19 Jul 2025 05:53:53 GMT</pubDate>
+  </item><item>
     <title>关于</title>
     <link>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</link>
     <guid>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</guid>
     <description><![CDATA[ 一个学生，现阶段最喜欢做的事是躺着。. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:39:16 GMT</pubDate>
+    <pubDate>Fri, 18 Jul 2025 16:49:44 GMT</pubDate>
   </item><item>
     <title>index</title>
     <link>https://quartz.jzhao.xyz/</link>
@@ -40,30 +64,6 @@
     <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
     <guid>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
     <description><![CDATA[ 神经网络 如同大脑需要神经元配合一样，深度学习也需要相应的网络。一个典型的神经网络包含一层层的节点，每一层节点的输入都是前一层或多层的输出（有点像动态规划）。现在的神经网络可以达到几十层甚至上千层，我们称之为深度神经网络。 认识这个世界 人之所以能够区分生活中常见的事物，是因为我们感知的信号传递给了大脑；大脑将复杂的信号处理分类，最后得到正确的结果。 计算机也是如此。在学习过程中，它将大量的不同物体之间的异同点变成神经网络的参数。当你给计算机一张动物图片时，它就能通过对图片的分析，告诉你它是不是小猫。 深度学习就这样通过构建多层的人工神经网络来模拟人类大脑的信息处理和学习机制，从海量的数据中学... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
-  </item><item>
-    <title>1227</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/1227</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/1227</guid>
-    <description><![CDATA[ void solve() { int n, k; cin &gt;&gt; n &gt;&gt; k; int maxnum = 0; vector&lt;int&gt; h(n), k = h; for (int i = 0; i &lt; n; i++) { cin &gt;&gt; h[i] &gt;&gt; k[i]; maxnum = max({maxnum, h[i], k[i]}); } int l = 1, r = maxnum, m, ans; while (l &lt;= r) { m = l + (r - l) / 2; auto check = [&amp;]() { ... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
-  </item><item>
-    <title>503</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/503</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/503</guid>
-    <description><![CDATA[ void solve() { int n, m; cin &gt;&gt; n &gt;&gt; m; vector&lt;int&gt; v(n + 2); for (int i = 1; i &lt;= n; i++) cin &gt;&gt; v[i]; for (int i = n; i &gt;= 1; i--) v[i] -= v[i - 1]; struct datas { int d, s, t; }; vector&lt;datas&gt; k(m + 1); for (int i = 1; i &lt;= m; i++) cin &gt;&gt; k[i].d &gt;&g... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
-  </item><item>
-    <title>5407</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/5407</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E4%BA%8C%E5%88%86/5407</guid>
-    <description><![CDATA[ void solve() { auto check = [&amp;]() -&gt; bool { }; }. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
-  </item><item>
-    <title>562</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</guid>
-    <description><![CDATA[ void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; }. ]]></description>
     <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item>
     </channel>
