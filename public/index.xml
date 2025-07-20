@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>树状数组</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</guid>
-    <description><![CDATA[ 树状数组 (Binary Indexed Tree / Fenwick Tree) 树状数组是一种用于高效处理前缀和查询和单点修改的数据结构，时间复杂度为 O(log n)。 核心思想 树状数组利用二进制的性质，通过 lowbit 函数来管理区间。每个位置 i 管理的区间长度为 lowbit(i)。 lowbit 函数 int lowbit(int x) { return x &amp; (-x); // 获取 x 的二进制表示中最低位的 1 } 基本操作 初始化 class BIT { private: vector&lt;int&gt; tree; int n; public: BIT(i... ]]></description>
-    <pubDate>Sat, 19 Jul 2025 06:04:45 GMT</pubDate>
+    <title>415</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</guid>
+    <description><![CDATA[ A 签到。 B 签到。 C 一开始没有看懂题捏。 混合其实是或运算，给的 binary string 其实是第i种是危险的，由于n不大 所以其实暴力搜索即可。 bfs code void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; // danger[i] 表示状态i是否危险 vector&lt;int&gt; danger(1 &lt;&lt; n, 0); for (int i = 1; i &lt; (1 &lt;&lt; n); i++) { danger[i] = (s[i - 1] - &#039;0&#03... ]]></description>
+    <pubDate>Sun, 20 Jul 2025 16:34:40 GMT</pubDate>
   </item><item>
-    <title>PBDS</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</guid>
-    <description><![CDATA[ PBDS (Policy-Based Data Structures) PBDS 是 GCC 编译器提供的一套基于策略的数据结构库，包含了许多高效的数据结构，在算法竞赛中非常实用。 引入头文件 #include &lt;ext/pb_ds/assoc_container.hpp&gt; #include &lt;ext/pb_ds/tree_policy.hpp&gt; using namespace __gnu_pbds; 核心数据结构 1. ]]></description>
-    <pubDate>Sat, 19 Jul 2025 06:03:21 GMT</pubDate>
+    <title>BFS &amp; DFS</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/BFS--and--DFS</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/BFS--and--DFS</guid>
+    <description><![CDATA[  仅用于帮自己在脑残忘记的时候补习，不是教程，特此说明。 DFS vs BFS 核心差异 DFS（深度优先） void dfs(当前状态) { if (达到目标) return; for (每个选择) { if (选择有效) { 做选择; dfs(新状态); // 递归深入 撤销选择; // 回溯 } } } BFS（广度优先）- 用队列模拟DFS void bfs() { queue&lt;状态&gt; q; q.push(初始状态); while (!q.empty()) { 当前状态 = q.front(); q.pop(); if (达到目标) return; for (每个选择) {... ]]></description>
+    <pubDate>Sun, 20 Jul 2025 16:05:37 GMT</pubDate>
   </item><item>
-    <title>线段树</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
-    <description><![CDATA[ 线段树 (Segment Tree) 线段树是一种用于处理区间查询和区间修改的高效数据结构，支持在 O(log n) 时间内完成各种区间操作。 核心思想 线段树是一棵完全二叉树，每个节点代表一个区间，叶子节点代表单个元素，内部节点代表子区间的合并结果。 基本性质 父节点区间 = 左子树区间 ∪ 右子树区间 对于节点 i：左儿子为 2*i，右儿子为 2*i+1 树的高度为 O(log n)，节点总数约为 4n 基础线段树（区间查询，单点修改） class SegmentTree { private: vector&lt;int&gt; tree; int n; void build(vector... ]]></description>
-    <pubDate>Sat, 19 Jul 2025 06:00:57 GMT</pubDate>
+    <title>找gemini问出来的stl替代方案</title>
+    <link>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84stl%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88</link>
+    <guid>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84stl%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88</guid>
+    <description><![CDATA[ Java中C++ STL的替代方案（进阶） 作为一名C++ ACMer，您对STL（标准模板库）的强大和便利性一定深有体会。在Java中，虽然没有一个直接名为“STL”的库，但其“Java集合框架”（Java Collections Framework, JCF）以及其他核心库提供了与STL高度相似甚至更强大的功能。本节将更深入地探讨这些对应关系，并提供更多针对C++背景的细节。 1. ]]></description>
+    <pubDate>Sun, 20 Jul 2025 08:11:46 GMT</pubDate>
   </item><item>
-    <title>并查集</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</guid>
-    <description><![CDATA[ 并查集 顾名思义 就是对集合的合并和查询 可以在均摊 o1 的复杂度下解决此类问题 初始化 我们需要一个 father 数组 来记录各个元素所在集合 的 代表元素 假设我们有 n 个元素 从 1 开始 那么不妨如下初始化： DSU(int n): father(n + 1) { iota(all(father), 0ll); } int find(int x) 这个函数可以查询 x 所在的集合 其实就是查出 x 的代表元素 因此 有如下递归代码： int find(int x) { if (father[x] == x) return x; else { // 继续往上查找 return fi... ]]></description>
-    <pubDate>Sat, 19 Jul 2025 05:53:53 GMT</pubDate>
+    <title>找gemini问出来的Java速成方案</title>
+    <link>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84Java%E9%80%9F%E6%88%90%E6%96%B9%E6%A1%88</link>
+    <guid>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84Java%E9%80%9F%E6%88%90%E6%96%B9%E6%A1%88</guid>
+    <description><![CDATA[ Java速成指南：从C++到Java 您好！很高兴能帮助您快速掌握Java。由于您有C++基础，我们将重点对比两者异同，让您更快上手。Java和C++都属于面向对象语言，因此许多概念是相通的。 1. 基础语法对比 特性C++Java备注主函数int main() { .. ]]></description>
+    <pubDate>Sun, 20 Jul 2025 08:05:10 GMT</pubDate>
   </item><item>
     <title>关于</title>
     <link>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</link>
     <guid>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</guid>
     <description><![CDATA[ 一个学生，现阶段最喜欢做的事是躺着。. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:49:44 GMT</pubDate>
+    <pubDate>Sat, 19 Jul 2025 08:53:27 GMT</pubDate>
+  </item><item>
+    <title>PBDS</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</guid>
+    <description><![CDATA[ PBDS (Policy-Based Data Structures) PBDS 是 GCC 编译器提供的一套基于策略的数据结构库，包含了许多高效的数据结构，在算法竞赛中非常实用。 引入头文件 #include &lt;ext/pb_ds/assoc_container.hpp&gt; #include &lt;ext/pb_ds/tree_policy.hpp&gt; using namespace __gnu_pbds; 核心数据结构 1. ]]></description>
+    <pubDate>Sat, 19 Jul 2025 08:53:27 GMT</pubDate>
+  </item><item>
+    <title>并查集</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</guid>
+    <description><![CDATA[ 并查集 顾名思义 就是对集合的合并和查询 可以在均摊 o1 的复杂度下解决此类问题 初始化 我们需要一个 father 数组 来记录各个元素所在集合 的 代表元素 假设我们有 n 个元素 从 1 开始 那么不妨如下初始化： DSU(int n): father(n + 1) { iota(all(father), 0ll); } int find(int x) 这个函数可以查询 x 所在的集合 其实就是查出 x 的代表元素 因此 有如下递归代码： int find(int x) { if (father[x] == x) return x; else { // 继续往上查找 return fi... ]]></description>
+    <pubDate>Sat, 19 Jul 2025 08:53:27 GMT</pubDate>
+  </item><item>
+    <title>树状数组</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</guid>
+    <description><![CDATA[ 树状数组 (Binary Indexed Tree / Fenwick Tree) 树状数组是一种用于高效处理前缀和查询和单点修改的数据结构，时间复杂度为 O(log n)。 核心思想 树状数组利用二进制的性质，通过 lowbit 函数来管理区间。每个位置 i 管理的区间长度为 lowbit(i)。 lowbit 函数 int lowbit(int x) { return x &amp; (-x); // 获取 x 的二进制表示中最低位的 1 } 基本操作 初始化 class BIT { private: vector&lt;int&gt; tree; int n; public: BIT(i... ]]></description>
+    <pubDate>Sat, 19 Jul 2025 08:53:27 GMT</pubDate>
+  </item><item>
+    <title>线段树</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
+    <description><![CDATA[ 线段树 (Segment Tree) 线段树是一种用于处理区间查询和区间修改的高效数据结构，支持在 O(log n) 时间内完成各种区间操作。 核心思想 线段树是一棵完全二叉树，每个节点代表一个区间，叶子节点代表单个元素，内部节点代表子区间的合并结果。 基本性质 父节点区间 = 左子树区间 ∪ 右子树区间 对于节点 i：左儿子为 2*i，右儿子为 2*i+1 树的高度为 O(log n)，节点总数约为 4n 基础线段树（区间查询，单点修改） class SegmentTree { private: vector&lt;int&gt; tree; int n; void build(vector... ]]></description>
+    <pubDate>Sat, 19 Jul 2025 08:53:27 GMT</pubDate>
   </item><item>
     <title>index</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description><![CDATA[ Welcome to my GitHub page! here u will find many of my crazy ideas and rubbish-like thoughts. ]]></description>
     <pubDate>Fri, 18 Jul 2025 16:36:58 GMT</pubDate>
-  </item><item>
-    <title>大创中期答辩演讲</title>
-    <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E5%A4%A7%E5%88%9B/%E5%A4%A7%E5%88%9B%E4%B8%AD%E6%9C%9F%E7%AD%94%E8%BE%A9%E6%BC%94%E8%AE%B2</link>
-    <guid>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E5%A4%A7%E5%88%9B/%E5%A4%A7%E5%88%9B%E4%B8%AD%E6%9C%9F%E7%AD%94%E8%BE%A9%E6%BC%94%E8%AE%B2</guid>
-    <description><![CDATA[ 各位评委、老师，大家好。 我叫梁震宇 ，是“理智先锋娱乐互动工作室”的负责人 。今天，我将向大家展示一个将中国古代科学智慧与现代游戏体验深度融合的创业项目。 (幻灯片切换：项目背景与团队实力) 我们想解决一个问题：如何让今天的年轻人，尤其是学生，真正爱上科学，同时深刻感受我们自己文化的魅力？传统课本的知识是静态的，而历史题材的游戏又常常忽略了其中蕴含的科学光芒。 我们的答案，是创造一种全新的互动体验。为此，我们立足于北宋科学家沈括的科学巨著——《梦溪笔谈》 。我们不仅仅是讲述历史，而是邀请玩家化身时空旅者，亲手去“复现”那些沉睡在古籍中的科学实验 。 我们的核心价值，就是将古风叙事与物理知识结... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
-  </item><item>
-    <title>大创答辩</title>
-    <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E5%A4%A7%E5%88%9B/%E5%A4%A7%E5%88%9B%E7%AD%94%E8%BE%A9</link>
-    <guid>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E5%A4%A7%E5%88%9B/%E5%A4%A7%E5%88%9B%E7%AD%94%E8%BE%A9</guid>
-    <description><![CDATA[ 第一章 项目目的与团队能力验证 1. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
-  </item><item>
-    <title>python</title>
-    <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/python</link>
-    <guid>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/python</guid>
-    <description><![CDATA[ os 模块的作用： os 是 Python 的标准库模块，用于与操作系统交互，核心功能包括： 路径操作： os.path.join(path1, path2)：将路径拼接成系统兼容格式（自动处理 / 或 \）。 例如：os.path.join(&quot;data&quot;, &quot;train&quot;) → &quot;data/train&quot;（Linux）或 &quot;data\\train&quot;（Windows）。 目录遍历： os.listdir(path)：列出指定路径下的所有文件和子目录名称（返回字符串列表）。 文件/目录管理： 创建、删除、重命名文件/目... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
-  </item><item>
-    <title>神经网络与深度学习笔记</title>
-    <link>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
-    <guid>https://quartz.jzhao.xyz/%E4%BB%80%E4%B9%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
-    <description><![CDATA[ 神经网络 如同大脑需要神经元配合一样，深度学习也需要相应的网络。一个典型的神经网络包含一层层的节点，每一层节点的输入都是前一层或多层的输出（有点像动态规划）。现在的神经网络可以达到几十层甚至上千层，我们称之为深度神经网络。 认识这个世界 人之所以能够区分生活中常见的事物，是因为我们感知的信号传递给了大脑；大脑将复杂的信号处理分类，最后得到正确的结果。 计算机也是如此。在学习过程中，它将大量的不同物体之间的异同点变成神经网络的参数。当你给计算机一张动物图片时，它就能通过对图片的分析，告诉你它是不是小猫。 深度学习就这样通过构建多层的人工神经网络来模拟人类大脑的信息处理和学习机制，从海量的数据中学... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:08:02 GMT</pubDate>
   </item>
     </channel>
   </rss>
