@@ -6,29 +6,35 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>415</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</guid>
-    <description><![CDATA[ A 签到。 B 签到。 C 一开始没有看懂题捏。 混合其实是或运算，给的 binary string 其实是第i种是危险的，由于n不大 所以其实暴力搜索即可。 bfs code void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; // danger[i] 表示状态i是否危险 vector&lt;int&gt; danger(1 &lt;&lt; n, 0); for (int i = 1; i &lt; (1 &lt;&lt; n); i++) { danger[i] = (s[i - 1] - &#039;0&#03... ]]></description>
-    <pubDate>Sun, 20 Jul 2025 16:34:40 GMT</pubDate>
+    <title>BEGINNING of markdown</title>
+    <link>https://quartz.jzhao.xyz/BEGINNING-of-markdown</link>
+    <guid>https://quartz.jzhao.xyz/BEGINNING-of-markdown</guid>
+    <description><![CDATA[ heading 1 heading 2 heading 3 heading 4 heading 5 heading 6 bold italic bullet item 1 bullet item 2 nested item bullet item 1 no.1 no.2 学习笔记 link text Highlight Text ～～ dont know why i cant use strikethrough ～～ checkbox put ‘x’ Node 1 %这是一个注释% 以下是 latex 教程 + - \times \div = \neq (a + b) \{a + b\} [a... ]]></description>
+    <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
   </item><item>
     <title>BFS &amp; DFS</title>
     <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/BFS--and--DFS</link>
     <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/BFS--and--DFS</guid>
     <description><![CDATA[  仅用于帮自己在脑残忘记的时候补习，不是教程，特此说明。 DFS vs BFS 核心差异 DFS（深度优先） void dfs(当前状态) { if (达到目标) return; for (每个选择) { if (选择有效) { 做选择; dfs(新状态); // 递归深入 撤销选择; // 回溯 } } } BFS（广度优先）- 用队列模拟DFS void bfs() { queue&lt;状态&gt; q; q.push(初始状态); while (!q.empty()) { 当前状态 = q.front(); q.pop(); if (达到目标) return; for (每个选择) {... ]]></description>
-    <pubDate>Sun, 20 Jul 2025 16:05:37 GMT</pubDate>
+    <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
   </item><item>
-    <title>找gemini问出来的stl替代方案</title>
-    <link>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84stl%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88</link>
-    <guid>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84stl%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88</guid>
-    <description><![CDATA[ Java中C++ STL的替代方案（进阶） 作为一名C++ ACMer，您对STL（标准模板库）的强大和便利性一定深有体会。在Java中，虽然没有一个直接名为“STL”的库，但其“Java集合框架”（Java Collections Framework, JCF）以及其他核心库提供了与STL高度相似甚至更强大的功能。本节将更深入地探讨这些对应关系，并提供更多针对C++背景的细节。 1. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 08:11:46 GMT</pubDate>
+    <title>415</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</guid>
+    <description><![CDATA[ A 签到。 B 签到。 C 一开始没有看懂题捏。 混合其实是或运算，给的 binary string 其实是第i种是危险的，由于n不大 所以其实暴力搜索即可。 bfs code void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; // danger[i] 表示状态i是否危险 vector&lt;int&gt; danger(1 &lt;&lt; n, 0); for (int i = 1; i &lt; (1 &lt;&lt; n); i++) { danger[i] = (s[i - 1] - &#039;0&#03... ]]></description>
+    <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
   </item><item>
     <title>找gemini问出来的Java速成方案</title>
     <link>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84Java%E9%80%9F%E6%88%90%E6%96%B9%E6%A1%88</link>
     <guid>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84Java%E9%80%9F%E6%88%90%E6%96%B9%E6%A1%88</guid>
     <description><![CDATA[ Java速成指南：从C++到Java 您好！很高兴能帮助您快速掌握Java。由于您有C++基础，我们将重点对比两者异同，让您更快上手。Java和C++都属于面向对象语言，因此许多概念是相通的。 1. 基础语法对比 特性C++Java备注主函数int main() { .. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 08:05:10 GMT</pubDate>
+    <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
+  </item><item>
+    <title>找gemini问出来的stl替代方案</title>
+    <link>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84stl%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88</link>
+    <guid>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84stl%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88</guid>
+    <description><![CDATA[ Java中C++ STL的替代方案（进阶） 作为一名C++ ACMer，您对STL（标准模板库）的强大和便利性一定深有体会。在Java中，虽然没有一个直接名为“STL”的库，但其“Java集合框架”（Java Collections Framework, JCF）以及其他核心库提供了与STL高度相似甚至更强大的功能。本节将更深入地探讨这些对应关系，并提供更多针对C++背景的细节。 1. ]]></description>
+    <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
   </item><item>
     <title>关于</title>
     <link>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</link>
@@ -59,12 +65,6 @@
     <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
     <description><![CDATA[ 线段树 (Segment Tree) 线段树是一种用于处理区间查询和区间修改的高效数据结构，支持在 O(log n) 时间内完成各种区间操作。 核心思想 线段树是一棵完全二叉树，每个节点代表一个区间，叶子节点代表单个元素，内部节点代表子区间的合并结果。 基本性质 父节点区间 = 左子树区间 ∪ 右子树区间 对于节点 i：左儿子为 2*i，右儿子为 2*i+1 树的高度为 O(log n)，节点总数约为 4n 基础线段树（区间查询，单点修改） class SegmentTree { private: vector&lt;int&gt; tree; int n; void build(vector... ]]></description>
     <pubDate>Sat, 19 Jul 2025 08:53:27 GMT</pubDate>
-  </item><item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Welcome to my GitHub page! here u will find many of my crazy ideas and rubbish-like thoughts. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 16:36:58 GMT</pubDate>
   </item>
     </channel>
   </rss>
