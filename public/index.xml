@@ -6,6 +6,18 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>101</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/101</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/101</guid>
+    <description><![CDATA[ A 签到。 值得注意的是，log2 是以2为底的对数，log10 是以10为底的对数，所以 log 就是ln 了，直接输出 150 * log(n) 即可。 B 签到，找准除法的细节。 C 记 n 的最高位是 pos 那么这个数字就是 1 &lt;&lt; (pos + 1) - 1 最高位可以用 __lg(n) 来快速求得 void solve() { int n; cin &gt;&gt; n; cout &lt;&lt; (1 &lt;&lt; (__lg(n) + 1) - 1); } D 注意到区间内包含1的 gcd的结果一定是1 所以想办法把需要的数字单独划分为一个区间，不需要的数... ]]></description>
+    <pubDate>Mon, 21 Jul 2025 06:21:22 GMT</pubDate>
+  </item><item>
+    <title>415</title>
+    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</guid>
+    <description><![CDATA[ A 签到。 B 签到。 C 一开始没有看懂题捏。 混合其实是或运算，给的 binary string 其实是第i种是危险的，由于n不大 所以其实暴力搜索即可。 bfs code void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; // danger[i] 表示状态i是否危险 vector&lt;int&gt; danger(1 &lt;&lt; n, 0); for (int i = 1; i &lt; (1 &lt;&lt; n); i++) { danger[i] = (s[i - 1] - &#039;0&#03... ]]></description>
+    <pubDate>Sun, 20 Jul 2025 17:08:07 GMT</pubDate>
+  </item><item>
     <title>BEGINNING of markdown</title>
     <link>https://quartz.jzhao.xyz/BEGINNING-of-markdown</link>
     <guid>https://quartz.jzhao.xyz/BEGINNING-of-markdown</guid>
@@ -16,12 +28,6 @@
     <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/BFS--and--DFS</link>
     <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/BFS--and--DFS</guid>
     <description><![CDATA[  仅用于帮自己在脑残忘记的时候补习，不是教程，特此说明。 DFS vs BFS 核心差异 DFS（深度优先） void dfs(当前状态) { if (达到目标) return; for (每个选择) { if (选择有效) { 做选择; dfs(新状态); // 递归深入 撤销选择; // 回溯 } } } BFS（广度优先）- 用队列模拟DFS void bfs() { queue&lt;状态&gt; q; q.push(初始状态); while (!q.empty()) { 当前状态 = q.front(); q.pop(); if (达到目标) return; for (每个选择) {... ]]></description>
-    <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
-  </item><item>
-    <title>415</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E9%A2%98%E8%A7%A3/ABC/415</guid>
-    <description><![CDATA[ A 签到。 B 签到。 C 一开始没有看懂题捏。 混合其实是或运算，给的 binary string 其实是第i种是危险的，由于n不大 所以其实暴力搜索即可。 bfs code void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; // danger[i] 表示状态i是否危险 vector&lt;int&gt; danger(1 &lt;&lt; n, 0); for (int i = 1; i &lt; (1 &lt;&lt; n); i++) { danger[i] = (s[i - 1] - &#039;0&#03... ]]></description>
     <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
   </item><item>
     <title>找gemini问出来的Java速成方案</title>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</link>
     <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</guid>
     <description><![CDATA[ 树状数组 (Binary Indexed Tree / Fenwick Tree) 树状数组是一种用于高效处理前缀和查询和单点修改的数据结构，时间复杂度为 O(log n)。 核心思想 树状数组利用二进制的性质，通过 lowbit 函数来管理区间。每个位置 i 管理的区间长度为 lowbit(i)。 lowbit 函数 int lowbit(int x) { return x &amp; (-x); // 获取 x 的二进制表示中最低位的 1 } 基本操作 初始化 class BIT { private: vector&lt;int&gt; tree; int n; public: BIT(i... ]]></description>
-    <pubDate>Sat, 19 Jul 2025 08:53:27 GMT</pubDate>
-  </item><item>
-    <title>线段树</title>
-    <link>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AF%B9%E6%9A%B4%E6%90%9C%E7%9A%84%E7%A0%94%E7%A9%B6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
-    <description><![CDATA[ 线段树 (Segment Tree) 线段树是一种用于处理区间查询和区间修改的高效数据结构，支持在 O(log n) 时间内完成各种区间操作。 核心思想 线段树是一棵完全二叉树，每个节点代表一个区间，叶子节点代表单个元素，内部节点代表子区间的合并结果。 基本性质 父节点区间 = 左子树区间 ∪ 右子树区间 对于节点 i：左儿子为 2*i，右儿子为 2*i+1 树的高度为 O(log n)，节点总数约为 4n 基础线段树（区间查询，单点修改） class SegmentTree { private: vector&lt;int&gt; tree; int n; void build(vector... ]]></description>
     <pubDate>Sat, 19 Jul 2025 08:53:27 GMT</pubDate>
   </item>
     </channel>
