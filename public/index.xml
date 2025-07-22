@@ -6,6 +6,24 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>2125 d2</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</guid>
+    <description><![CDATA[ A B C D 概率怎么算？ 比方说有n条线段 选择每一条线段的概率分别是 p[i] 那么我们4条线段 选择2和4 的总概率就是 P = (1 - p[1]) * p[2] * (1 - p[3]) * p[4] 我们钦定一个初始概率 P_{0} = \prod (1-p[i]) 最后要求的概率是上面P 那么每一个概率就要乘上一个系数： P = P_{0} \times (p[2]\times\frac{1}{1-p[2]}) \times (p[4]\times\frac{1}{1-p[4]}) 又有 p[i] = \frac{p_i}{q_{i}} 化简即可。 总之 记 w_{i} = (... ]]></description>
+    <pubDate>Tue, 22 Jul 2025 17:43:40 GMT</pubDate>
+  </item><item>
+    <title>关于</title>
+    <link>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</link>
+    <guid>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</guid>
+    <description><![CDATA[ 一个学生，现阶段最喜欢做的事是躺着。. ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:31:09 GMT</pubDate>
+  </item><item>
+    <title>20250722</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250722</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250722</guid>
+    <description><![CDATA[ F 记 a + b = tot 分 n &gt;= tot 和 n &lt; tot 两类讨论。 对于 n &lt; tot 如果 n &lt;= a 那么一定无法做到；如果 n &gt; a 那么直接可以做到 输出0 对于 n &gt;= tot 我们直接令 n %= tot 表示可以经历完整的 n / tot 轮；对于剩下的余数 当 n &gt; a 时一个都不用删，当 n &lt;= a 时候必须全部删完。 D 签到。 根据题目意思，我们可以发现 当已经有现成的 a 个并列的1 我们总可以先把他变成0然后再跟前后连续的一个0组成a + 1 个并列的0 也就是说 只要找到 a 个现成的连续... ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:26:46 GMT</pubDate>
+  </item><item>
     <title>1227</title>
     <link>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/1227</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/1227</guid>
@@ -46,24 +64,6 @@
     <link>https://quartz.jzhao.xyz/ACM-research/%E5%BE%88%E6%9D%82%E4%B9%B1%E7%9A%84%E6%9D%BF%E5%AD%90</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E5%BE%88%E6%9D%82%E4%B9%B1%E7%9A%84%E6%9D%BF%E5%AD%90</guid>
     <description><![CDATA[ // 大数加法 string largeadd(string &amp;a, string &amp;b) { if (a.size() &lt; b.size()) swap(a, b); int p = 0; for (size_t i = 0; i &lt; b.size(); i++) { int ai = a[a.size() - i - 1] - &#039;0&#039;; int bi = b[b.size() - i - 1] - &#039;0&#039;; int sum = ai + bi + p; if (sum &gt;= 10) { p = 1; sum -= 1... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
-  </item><item>
-    <title>PBDS</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</guid>
-    <description><![CDATA[ PBDS (Policy-Based Data Structures) PBDS 是 GCC 编译器提供的一套基于策略的数据结构库，包含了许多高效的数据结构，在算法竞赛中非常实用。 引入头文件 #include &lt;ext/pb_ds/assoc_container.hpp&gt; #include &lt;ext/pb_ds/tree_policy.hpp&gt; using namespace __gnu_pbds; 核心数据结构 1. ]]></description>
-    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
-  </item><item>
-    <title>并查集</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</guid>
-    <description><![CDATA[ 并查集 顾名思义 就是对集合的合并和查询 可以在均摊 o1 的复杂度下解决此类问题 初始化 我们需要一个 father 数组 来记录各个元素所在集合 的 代表元素 假设我们有 n 个元素 从 1 开始 那么不妨如下初始化： DSU(int n): father(n + 1) { iota(all(father), 0ll); } int find(int x) 这个函数可以查询 x 所在的集合 其实就是查出 x 的代表元素 因此 有如下递归代码： int find(int x) { if (father[x] == x) return x; else { // 继续往上查找 return fi... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
-  </item><item>
-    <title>树状数组</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</guid>
-    <description><![CDATA[ 树状数组 (Binary Indexed Tree / Fenwick Tree) 树状数组是一种用于高效处理前缀和查询和单点修改的数据结构，时间复杂度为 O(log n)。 核心思想 树状数组利用二进制的性质，通过 lowbit 函数来管理区间。每个位置 i 管理的区间长度为 lowbit(i)。 lowbit 函数 int lowbit(int x) { return x &amp; (-x); // 获取 x 的二进制表示中最低位的 1 } 基本操作 初始化 class BIT { private: vector&lt;int&gt; tree; int n; public: BIT(i... ]]></description>
     <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item>
     </channel>
