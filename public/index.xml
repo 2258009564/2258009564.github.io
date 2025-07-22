@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>20250722</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E9%A2%98%E8%A7%A3/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250722</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E9%A2%98%E8%A7%A3/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250722</guid>
-    <description><![CDATA[ F 记 a + b = tot 分 n &gt;= tot 和 n &lt; tot 两类讨论。 对于 n &lt; tot 如果 n &lt;= a 那么一定无法做到；如果 n &gt; a 那么直接可以做到 输出0 对于 n &gt;= tot 我们直接令 n %= tot 表示可以经历完整的 n / tot 轮；对于剩下的余数 当 n &gt; a 时一个都不用删，当 n &lt;= a 时候必须全部删完。 D 签到。 根据题目意思，我们可以发现 当已经有现成的 a 个并列的1 我们总可以先把他变成0然后再跟前后连续的一个0组成a + 1 个并列的0 也就是说 只要找到 a 个现成的连续... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 14:13:00 GMT</pubDate>
+    <title>1227</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/1227</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/1227</guid>
+    <description><![CDATA[ void solve() { int n, k; cin &gt;&gt; n &gt;&gt; k; int maxnum = 0; vector&lt;int&gt; h(n), k = h; for (int i = 0; i &lt; n; i++) { cin &gt;&gt; h[i] &gt;&gt; k[i]; maxnum = max({maxnum, h[i], k[i]}); } int l = 1, r = maxnum, m, ans; while (l &lt;= r) { m = l + (r - l) / 2; auto check = [&amp;]() { ... ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item><item>
-    <title>101</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E9%A2%98%E8%A7%A3/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/101</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E9%A2%98%E8%A7%A3/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/101</guid>
-    <description><![CDATA[ A 签到。 值得注意的是，log2 是以2为底的对数，log10 是以10为底的对数，所以 log 就是ln 了，直接输出 150 * log(n) 即可。 B 签到，找准除法的细节。 C 记 n 的最高位是 pos 那么这个数字就是 1 &lt;&lt; (pos + 1) - 1 最高位可以用 __lg(n) 来快速求得 void solve() { int n; cin &gt;&gt; n; cout &lt;&lt; (1 &lt;&lt; (__lg(n) + 1) - 1); } D 注意到区间内包含1的 gcd的结果一定是1 所以想办法把需要的数字单独划分为一个区间，不需要的数... ]]></description>
-    <pubDate>Mon, 21 Jul 2025 06:21:22 GMT</pubDate>
+    <title>503</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/503</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/503</guid>
+    <description><![CDATA[ void solve() { int n, m; cin &gt;&gt; n &gt;&gt; m; vector&lt;int&gt; v(n + 2); for (int i = 1; i &lt;= n; i++) cin &gt;&gt; v[i]; for (int i = n; i &gt;= 1; i--) v[i] -= v[i - 1]; struct datas { int d, s, t; }; vector&lt;datas&gt; k(m + 1); for (int i = 1; i &lt;= m; i++) cin &gt;&gt; k[i].d &gt;&g... ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item><item>
-    <title>415</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E9%A2%98%E8%A7%A3/ABC/415</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E9%A2%98%E8%A7%A3/ABC/415</guid>
-    <description><![CDATA[ A 签到。 B 签到。 C 一开始没有看懂题捏。 混合其实是或运算，给的 binary string 其实是第i种是危险的，由于n不大 所以其实暴力搜索即可。 bfs code void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; // danger[i] 表示状态i是否危险 vector&lt;int&gt; danger(1 &lt;&lt; n, 0); for (int i = 1; i &lt; (1 &lt;&lt; n); i++) { danger[i] = (s[i - 1] - &#039;0&#03... ]]></description>
-    <pubDate>Sun, 20 Jul 2025 17:06:44 GMT</pubDate>
+    <title>5407</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/5407</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/5407</guid>
+    <description><![CDATA[ void solve() { auto check = [&amp;]() -&gt; bool { }; }. ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item><item>
-    <title>BEGINNING of markdown</title>
-    <link>https://quartz.jzhao.xyz/BEGINNING-of-markdown</link>
-    <guid>https://quartz.jzhao.xyz/BEGINNING-of-markdown</guid>
-    <description><![CDATA[ heading 1 heading 2 heading 3 heading 4 heading 5 heading 6 bold italic bullet item 1 bullet item 2 nested item bullet item 1 no.1 no.2 学习笔记 link text Highlight Text ～～ dont know why i cant use strikethrough ～～ checkbox put ‘x’ Node 1 %这是一个注释% 以下是 latex 教程 + - \times \div = \neq (a + b) \{a + b\} [a... ]]></description>
-    <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
+    <title>562</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</guid>
+    <description><![CDATA[ void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; }. ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item><item>
-    <title>找gemini问出来的Java速成方案</title>
-    <link>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84Java%E9%80%9F%E6%88%90%E6%96%B9%E6%A1%88</link>
-    <guid>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84Java%E9%80%9F%E6%88%90%E6%96%B9%E6%A1%88</guid>
-    <description><![CDATA[ Java速成指南：从C++到Java 您好！很高兴能帮助您快速掌握Java。由于您有C++基础，我们将重点对比两者异同，让您更快上手。Java和C++都属于面向对象语言，因此许多概念是相通的。 1. 基础语法对比 特性C++Java备注主函数int main() { .. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
+    <title>判断整除 数位法</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E5%88%A4%E6%96%AD%E6%95%B4%E9%99%A4-%E6%95%B0%E4%BD%8D%E6%B3%95</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E5%88%A4%E6%96%AD%E6%95%B4%E9%99%A4-%E6%95%B0%E4%BD%8D%E6%B3%95</guid>
+    <description><![CDATA[ 对于所有正整数 1都是因子 数位和是三的倍数 那么3就是因子 末尾是5或者0 5就是因子 对于7 一个n位数(n &gt;= 6) 有abbbccc → a （三个连续的b可以和三个连续的c约掉) 判断a是否可以整除7即可 数位和是9的倍数 那么9就是因子. ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item><item>
-    <title>找gemini问出来的stl替代方案</title>
-    <link>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84stl%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88</link>
-    <guid>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84stl%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88</guid>
-    <description><![CDATA[ Java中C++ STL的替代方案（进阶） 作为一名C++ ACMer，您对STL（标准模板库）的强大和便利性一定深有体会。在Java中，虽然没有一个直接名为“STL”的库，但其“Java集合框架”（Java Collections Framework, JCF）以及其他核心库提供了与STL高度相似甚至更强大的功能。本节将更深入地探讨这些对应关系，并提供更多针对C++背景的细节。 1. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 17:00:09 GMT</pubDate>
+    <title>学习笔记</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
+    <description><![CDATA[ 好用的小操作 求数位之和 int dig(int x) { return (x + 8) % 9 + 1; // 输入123 返回6 } 原理： 任意一个数字 x 可以写成它的各位数字的加权和，形式如下： x = a_k * 10^k + a_(k-1) * 10^(k-1) + .. ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item><item>
-    <title>BFS &amp; DFS</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/BFS--and--DFS</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/BFS--and--DFS</guid>
-    <description><![CDATA[  仅用于帮自己在脑残忘记的时候补习，不是教程，特此说明。 DFS vs BFS 核心差异 DFS（深度优先） void dfs(当前状态) { if (达到目标) return; for (每个选择) { if (选择有效) { 做选择; dfs(新状态); // 递归深入 撤销选择; // 回溯 } } } BFS（广度优先）- 用队列模拟DFS void bfs() { queue&lt;状态&gt; q; q.push(初始状态); while (!q.empty()) { 当前状态 = q.front(); q.pop(); if (达到目标) return; for (每个选择) {... ]]></description>
-    <pubDate>Sun, 20 Jul 2025 16:05:37 GMT</pubDate>
-  </item><item>
-    <title>关于</title>
-    <link>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</link>
-    <guid>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</guid>
-    <description><![CDATA[ 一个学生，现阶段最喜欢做的事是躺着。. ]]></description>
-    <pubDate>Sat, 19 Jul 2025 08:53:27 GMT</pubDate>
-  </item><item>
-    <title>树状数组</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</guid>
-    <description><![CDATA[ 树状数组 (Binary Indexed Tree / Fenwick Tree) 树状数组是一种用于高效处理前缀和查询和单点修改的数据结构，时间复杂度为 O(log n)。 核心思想 树状数组利用二进制的性质，通过 lowbit 函数来管理区间。每个位置 i 管理的区间长度为 lowbit(i)。 lowbit 函数 int lowbit(int x) { return x &amp; (-x); // 获取 x 的二进制表示中最低位的 1 } 基本操作 初始化 class BIT { private: vector&lt;int&gt; tree; int n; public: BIT(i... ]]></description>
-    <pubDate>Sat, 19 Jul 2025 06:04:45 GMT</pubDate>
+    <title>很杂乱的板子</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E5%BE%88%E6%9D%82%E4%B9%B1%E7%9A%84%E6%9D%BF%E5%AD%90</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E5%BE%88%E6%9D%82%E4%B9%B1%E7%9A%84%E6%9D%BF%E5%AD%90</guid>
+    <description><![CDATA[ // 大数加法 string largeadd(string &amp;a, string &amp;b) { if (a.size() &lt; b.size()) swap(a, b); int p = 0; for (size_t i = 0; i &lt; b.size(); i++) { int ai = a[a.size() - i - 1] - &#039;0&#039;; int bi = b[b.size() - i - 1] - &#039;0&#039;; int sum = ai + bi + p; if (sum &gt;= 10) { p = 1; sum -= 1... ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item><item>
     <title>PBDS</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/PBDS</guid>
     <description><![CDATA[ PBDS (Policy-Based Data Structures) PBDS 是 GCC 编译器提供的一套基于策略的数据结构库，包含了许多高效的数据结构，在算法竞赛中非常实用。 引入头文件 #include &lt;ext/pb_ds/assoc_container.hpp&gt; #include &lt;ext/pb_ds/tree_policy.hpp&gt; using namespace __gnu_pbds; 核心数据结构 1. ]]></description>
-    <pubDate>Sat, 19 Jul 2025 06:03:21 GMT</pubDate>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
+  </item><item>
+    <title>并查集</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</guid>
+    <description><![CDATA[ 并查集 顾名思义 就是对集合的合并和查询 可以在均摊 o1 的复杂度下解决此类问题 初始化 我们需要一个 father 数组 来记录各个元素所在集合 的 代表元素 假设我们有 n 个元素 从 1 开始 那么不妨如下初始化： DSU(int n): father(n + 1) { iota(all(father), 0ll); } int find(int x) 这个函数可以查询 x 所在的集合 其实就是查出 x 的代表元素 因此 有如下递归代码： int find(int x) { if (father[x] == x) return x; else { // 继续往上查找 return fi... ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
+  </item><item>
+    <title>树状数组</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84</guid>
+    <description><![CDATA[ 树状数组 (Binary Indexed Tree / Fenwick Tree) 树状数组是一种用于高效处理前缀和查询和单点修改的数据结构，时间复杂度为 O(log n)。 核心思想 树状数组利用二进制的性质，通过 lowbit 函数来管理区间。每个位置 i 管理的区间长度为 lowbit(i)。 lowbit 函数 int lowbit(int x) { return x &amp; (-x); // 获取 x 的二进制表示中最低位的 1 } 基本操作 初始化 class BIT { private: vector&lt;int&gt; tree; int n; public: BIT(i... ]]></description>
+    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item>
     </channel>
   </rss>
