@@ -10,7 +10,7 @@
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</guid>
     <description><![CDATA[ A B C 容斥原理。 定义一个函数 cal(x) 来 计算 1 ~ x 中 是 2 3 5 7 倍数 的总个数，最后输出 r - cal(r) - (l - 1 - cal(l - 1)) 即可。 可以直接枚举 但是这里讲一下二进制枚举的写法。 auto cal = [&amp;](int n) -&gt; int { vector&lt;int&gt; v = {2, 3, 5, 7}; int ans = 0; // 我们最后要计算 2 + 3 + 5 + 7 - （2 * 3 + 2 * 5 + ...） // 所以 奇数加 偶数减 for (int mask = 1; mask &l... ]]></description>
-    <pubDate>Wed, 23 Jul 2025 07:23:18 GMT</pubDate>
+    <pubDate>Wed, 23 Jul 2025 09:44:28 GMT</pubDate>
   </item><item>
     <title>20250723 河南萌新2</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</link>
