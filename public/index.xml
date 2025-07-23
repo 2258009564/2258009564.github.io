@@ -6,22 +6,22 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>2125 d2</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</guid>
+    <description><![CDATA[ A B C 容斥原理。 定义一个函数 cal(x) 来 计算 1 ~ x 中 是 2 3 5 7 倍数 的总个数，最后输出 r - cal(r) - (l - 1 - cal(l - 1)) 即可。 可以直接枚举 但是这里讲一下二进制枚举的写法。 auto cal = [&amp;](int n) -&gt; int { vector&lt;int&gt; v = {2, 3, 5, 7}; int ans = 0; // 我们最后要计算 2 + 3 + 5 + 7 - （2 * 3 + 2 * 5 + ...） // 所以 奇数加 偶数减 for (int mask = 1; mask &l... ]]></description>
+    <pubDate>Wed, 23 Jul 2025 07:23:18 GMT</pubDate>
+  </item><item>
     <title>20250723 河南萌新2</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</guid>
     <description><![CDATA[ M 签到。 勾股定理列出来然后观察即可，最后答案是 \frac{\pi x^{2}}{8} K 签到，直接输出那个玩意就行。 I 题意等价于求二分答案的时间复杂度，如果n是2的次幂，答案就是__lg(n)；如果不是的话，就要多搜索一次。 如何高效判断 n 是否是 2 的次幂？ 可以采用 if ((n &amp; (n - 1)) != 0) ans++; 由于 &amp; 的优先级较低，这里的括号应当是一个都不能少的，可以自行尝试。 D 建图之后dfs。 dfs 的时候要注意如何高效识别 当前的节点 cur 是哪条路过来的，可以考虑建立一个前驱数组，也可以直接在 dfs 的参数上加上。 最后查... ]]></description>
-    <pubDate>Wed, 23 Jul 2025 07:17:30 GMT</pubDate>
+    <pubDate>Wed, 23 Jul 2025 07:23:18 GMT</pubDate>
   </item><item>
     <title>415</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/ABC/415</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/ABC/415</guid>
     <description><![CDATA[ A 签到。 B 签到。 C 一开始没有看懂题捏。 混合其实是或运算，给的 binary string 其实是第i种是危险的，由于n不大 所以其实暴力搜索即可。 bfs code void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; // danger[i] 表示状态i是否危险 vector&lt;int&gt; danger(1 &lt;&lt; n, 0); for (int i = 1; i &lt; (1 &lt;&lt; n); i++) { danger[i] = (s[i - 1] - &#039;0&#03... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 17:45:15 GMT</pubDate>
-  </item><item>
-    <title>2125 d2</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</guid>
-    <description><![CDATA[ A B C D 概率怎么算？ 比方说有n条线段 选择每一条线段的概率分别是 p[i] 那么我们4条线段 选择2和4 的总概率就是 P = (1 - p[1]) * p[2] * (1 - p[3]) * p[4] 我们钦定一个初始概率 P_{0} = \prod (1-p[i]) 最后要求的概率是上面P 那么每一个概率就要乘上一个系数： P = P_{0} \times (p[2]\times\frac{1}{1-p[2]}) \times (p[4]\times\frac{1}{1-p[4]}) 又有 p[i] = \frac{p_i}{q_{i}} 化简即可。 总之 记 w_{i} = (... ]]></description>
     <pubDate>Tue, 22 Jul 2025 17:45:15 GMT</pubDate>
   </item><item>
     <title>20250722</title>
