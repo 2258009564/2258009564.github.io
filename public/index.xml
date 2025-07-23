@@ -10,7 +10,7 @@
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</guid>
     <description><![CDATA[ M 签到。 勾股定理列出来然后观察即可，最后答案是 \frac{\pi x^{2}}{8} K 签到，直接输出那个玩意就行。 I 题意等价于求二分答案的时间复杂度，如果n是2的次幂，答案就是__lg(n)；如果不是的话，就要多搜索一次。 如何高效判断 n 是否是 2 的次幂？ 可以采用 if ((n &amp; (n - 1)) != 0) ans++; 由于 &amp; 的优先级较低，这里的括号应当是一个都不能少的，可以自行尝试。 D 建图之后dfs。 dfs 的时候要注意如何高效识别 当前的节点 cur 是哪条路过来的，可以考虑建立一个前驱数组，也可以直接在 dfs 的参数上加上。 最后查... ]]></description>
-    <pubDate>Wed, 23 Jul 2025 07:15:23 GMT</pubDate>
+    <pubDate>Wed, 23 Jul 2025 07:17:30 GMT</pubDate>
   </item><item>
     <title>415</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/ABC/415</link>
