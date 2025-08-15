@@ -10,19 +10,19 @@
     <link>https://quartz.jzhao.xyz/2128</link>
     <guid>https://quartz.jzhao.xyz/2128</guid>
     <description><![CDATA[ 我们钦定 dp[i] 是 i结尾的所有数组 合法子序列的最大长度 的 和 也就是 \sum_{j = 0}^{i} f(j, i) 其中 f指的就是LCS 最长单调下降子序列 那么对于每一个 dp[i] 我们考察他的每一个 f 即可 首先 由于 [i, i] 上 只有 v[i] 一个 显然合法 也就是 f(i, i) = 1 那 dp[i] 可以直接初始化为1 其次 在不考虑 v[i] 贡献的前提下 我们起码有 f(i - 1, i) = f(i - 1, i - 1) f(i - 2, i) = f(i - 2, i - 1) 这样 也就是 虽然以i结尾 但是 v[i] 不参与，所以这些f都... ]]></description>
-    <pubDate>Fri, 15 Aug 2025 16:37:44 GMT</pubDate>
+    <pubDate>Fri, 15 Aug 2025 17:21:34 GMT</pubDate>
   </item><item>
-    <title>线段树</title>
-    <link>https://quartz.jzhao.xyz/%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
-    <guid>https://quartz.jzhao.xyz/%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
-    <description><![CDATA[ 线段树专题1-线段树原理和代码详解 线段树维护的信息类型 父范围上的某个信息，可以用0(1)的时间，从子范围的信息加工得到 满足的信息比如：累加和、最大值、最小值； 不满足的信息比如：某范围上出现次数最多的数 线段树的经典功能，如下操作单次调用的时间复杂度为0(log n) 范围查询，包括范围内累加和、最大值、最小值等等信息 范围修改，包括范围内每个数都增加、重置等等操作 线段树的范围修改功能，想做到单次调用时间复杂度为(log n)的要求： 一段范围上统一进行了某种修改操作，可以用0(1)的时间，就把这段范围维护的信息加工出来 满足的情况，比如：这段范围所有数字都加v，累加和可以快速的加工出... ]]></description>
-    <pubDate>Wed, 06 Aug 2025 09:18:59 GMT</pubDate>
+    <title>并查集</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</guid>
+    <description><![CDATA[ 并查集 顾名思义 就是对集合的合并和查询 可以在均摊 o1 的复杂度下解决此类问题 初始化 我们需要一个 father 数组 来记录各个元素所在集合 的 代表元素 假设我们有 n 个元素 从 1 开始 那么不妨如下初始化： DSU(int n): father(n + 1) { iota(all(father), 0ll); } int find(int x) 这个函数可以查询 x 所在的集合 其实就是查出 x 的代表元素 因此 有如下递归代码： int find(int x) { if (father[x] == x) return x; else { // 继续往上查找 return fi... ]]></description>
+    <pubDate>Fri, 15 Aug 2025 17:21:34 GMT</pubDate>
   </item><item>
     <title>20250724</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250724</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250724</guid>
     <description><![CDATA[ F 我们要找出 a[i] 使得 a[i] - c * abs(i - 1). ]]></description>
-    <pubDate>Thu, 24 Jul 2025 09:42:06 GMT</pubDate>
+    <pubDate>Fri, 15 Aug 2025 17:21:34 GMT</pubDate>
   </item><item>
     <title>2125 d2</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</link>
