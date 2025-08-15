@@ -6,6 +6,24 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>2128</title>
+    <link>https://quartz.jzhao.xyz/2128</link>
+    <guid>https://quartz.jzhao.xyz/2128</guid>
+    <description><![CDATA[ 我们钦定 dp[i] 是 i结尾的所有数组 合法子序列的最大长度 的 和 也就是 \sum_{j = 0}^{i} f(j, i) 其中 f指的就是LCS 最长单调下降子序列 那么对于每一个 dp[i] 我们考察他的每一个 f 即可 首先 由于 [i, i] 上 只有 v[i] 一个 显然合法 也就是 f(i, i) = 1 那 dp[i] 可以直接初始化为1 其次 在不考虑 v[i] 贡献的前提下 我们起码有 f(i - 1, i) = f(i - 1, i - 1) f(i - 2, i) = f(i - 2, i - 1) 这样 也就是 虽然以i结尾 但是 v[i] 不参与，所以这些f都... ]]></description>
+    <pubDate>Fri, 15 Aug 2025 16:37:44 GMT</pubDate>
+  </item><item>
+    <title>线段树</title>
+    <link>https://quartz.jzhao.xyz/%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
+    <guid>https://quartz.jzhao.xyz/%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
+    <description><![CDATA[ 线段树专题1-线段树原理和代码详解 线段树维护的信息类型 父范围上的某个信息，可以用0(1)的时间，从子范围的信息加工得到 满足的信息比如：累加和、最大值、最小值； 不满足的信息比如：某范围上出现次数最多的数 线段树的经典功能，如下操作单次调用的时间复杂度为0(log n) 范围查询，包括范围内累加和、最大值、最小值等等信息 范围修改，包括范围内每个数都增加、重置等等操作 线段树的范围修改功能，想做到单次调用时间复杂度为(log n)的要求： 一段范围上统一进行了某种修改操作，可以用0(1)的时间，就把这段范围维护的信息加工出来 满足的情况，比如：这段范围所有数字都加v，累加和可以快速的加工出... ]]></description>
+    <pubDate>Wed, 06 Aug 2025 09:18:59 GMT</pubDate>
+  </item><item>
+    <title>20250724</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250724</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250724</guid>
+    <description><![CDATA[ F 我们要找出 a[i] 使得 a[i] - c * abs(i - 1). ]]></description>
+    <pubDate>Thu, 24 Jul 2025 09:42:06 GMT</pubDate>
+  </item><item>
     <title>2125 d2</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98-%E8%A1%A5%E9%A2%98%EF%BC%81/cf/2125-d2</guid>
@@ -46,24 +64,6 @@
     <link>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/1227</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/1227</guid>
     <description><![CDATA[ void solve() { int n, k; cin &gt;&gt; n &gt;&gt; k; int maxnum = 0; vector&lt;int&gt; h(n), k = h; for (int i = 0; i &lt; n; i++) { cin &gt;&gt; h[i] &gt;&gt; k[i]; maxnum = max({maxnum, h[i], k[i]}); } int l = 1, r = maxnum, m, ans; while (l &lt;= r) { m = l + (r - l) / 2; auto check = [&amp;]() { ... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
-  </item><item>
-    <title>503</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/503</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/503</guid>
-    <description><![CDATA[ void solve() { int n, m; cin &gt;&gt; n &gt;&gt; m; vector&lt;int&gt; v(n + 2); for (int i = 1; i &lt;= n; i++) cin &gt;&gt; v[i]; for (int i = n; i &gt;= 1; i--) v[i] -= v[i - 1]; struct datas { int d, s, t; }; vector&lt;datas&gt; k(m + 1); for (int i = 1; i &lt;= m; i++) cin &gt;&gt; k[i].d &gt;&g... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
-  </item><item>
-    <title>5407</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/5407</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E4%BA%8C%E5%88%86/5407</guid>
-    <description><![CDATA[ void solve() { auto check = [&amp;]() -&gt; bool { }; }. ]]></description>
-    <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
-  </item><item>
-    <title>562</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/ACW2024/%E5%89%8D%E7%BC%80%E5%92%8C/562</guid>
-    <description><![CDATA[ void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; }. ]]></description>
     <pubDate>Tue, 22 Jul 2025 14:15:19 GMT</pubDate>
   </item>
     </channel>
