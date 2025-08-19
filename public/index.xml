@@ -6,17 +6,53 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>20250717</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250717</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250717</guid>
+    <description><![CDATA[ BFIALDGH B 本题试图证明：对于任意一对 i, j （不妨认为 1 \le i \leq j ) 有：2^{i \oplus j} \geq 2^{i} + 2^{j} 先来看对于 x \leq y 能否 找到一个z使得 2^{z} \geq 2^{x}+2^{y} 我们知道 2^{i+1}=2^{i}+2^{i} 因此 令 z=y + 1 ，自然有 2^{y + 1} \geq 2^{x}+ 2^{y} 也就是说 问题转化为 对于任意的 1 \leq i \leq j 证明 i \oplus j \geq j 当 i=j 时，i \oplus j = 0 &lt; 1 \le j 无... ]]></description>
+    <pubDate>Tue, 19 Aug 2025 14:55:24 GMT</pubDate>
+  </item><item>
+    <title>415</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/ABC/415</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/ABC/415</guid>
+    <description><![CDATA[ A 签到。 B 签到。 C 一开始没有看懂题捏。 混合其实是或运算，给的 binary string 其实是第i种是危险的，由于n不大 所以其实暴力搜索即可。 bfs code void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; // danger[i] 表示状态i是否危险 vector&lt;int&gt; danger(1 &lt;&lt; n, 0); for (int i = 1; i &lt; (1 &lt;&lt; n); i++) { danger[i] = (s[i - 1] - &#039;0&#03... ]]></description>
+    <pubDate>Mon, 18 Aug 2025 15:06:49 GMT</pubDate>
+  </item><item>
+    <title>2125 d2</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/cf/2125-d2</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/cf/2125-d2</guid>
+    <description><![CDATA[ A B C 容斥原理。 定义一个函数 cal(x) 来 计算 1 ~ x 中 是 2 3 5 7 倍数 的总个数，最后输出 r - cal(r) - (l - 1 - cal(l - 1)) 即可。 可以直接枚举 但是这里讲一下二进制枚举的写法。 auto cal = [&amp;](int n) -&gt; int { vector&lt;int&gt; v = {2, 3, 5, 7}; int ans = 0; // 我们最后要计算 2 + 3 + 5 + 7 - （2 * 3 + 2 * 5 + ...） // 所以 奇数加 偶数减 for (int mask = 1; mask &l... ]]></description>
+    <pubDate>Mon, 18 Aug 2025 15:06:49 GMT</pubDate>
+  </item><item>
+    <title>20250723 河南萌新2</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</guid>
+    <description><![CDATA[ M 签到。 勾股定理列出来然后观察即可，最后答案是 \frac{\pi x^{2}}{8} K 签到，直接输出那个玩意就行。 I 题意等价于求二分答案的时间复杂度，如果n是2的次幂，答案就是__lg(n)；如果不是的话，就要多搜索一次。 如何高效判断 n 是否是 2 的次幂？ 可以采用 if ((n &amp; (n - 1)) != 0) ans++; 由于 &amp; 的优先级较低，这里的括号应当是一个都不能少的，可以自行尝试。 D 建图之后dfs。 dfs 的时候要注意如何高效识别 当前的节点 cur 是哪条路过来的，可以考虑建立一个前驱数组，也可以直接在 dfs 的参数上加上。 最后查... ]]></description>
+    <pubDate>Mon, 18 Aug 2025 15:06:49 GMT</pubDate>
+  </item><item>
     <title>20250715</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250715</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250715</guid>
     <description><![CDATA[ E 知识点：形如 x^2-y^2 的数字 不能被 4k+2 表示 给定两个数字 a, b 判断 num = (a+b)*(a-b) 的结果在所有这些数字的集合中的排名 打表找规律可以发现： 1 不能被表示，所有 2k+1 \ \ (k &gt; 0) 的数字都可以表示为 (k+1)^2-k^2 4 不能被表示，所有 4k 可以表示为 (k+1)^2-(k-1)^2 所有形如 4k+2 的数字都不能被表示 所以我们计算有多少个 4k+2 &lt; num 然后特别判断一下 1 和 4 即可 num 的 最小值 是 2^2-1^2=3 所以一定比1大 我们不妨这样理解：本来num在所有的正整数中就... ]]></description>
-    <pubDate>Mon, 18 Aug 2025 15:03:40 GMT</pubDate>
+    <pubDate>Mon, 18 Aug 2025 15:06:49 GMT</pubDate>
   </item><item>
-    <title>2128</title>
-    <link>https://quartz.jzhao.xyz/2128</link>
-    <guid>https://quartz.jzhao.xyz/2128</guid>
-    <description><![CDATA[ 我们钦定 dp[i] 是 i结尾的所有数组 合法子序列的最大长度 的 和 也就是 \sum_{j = 0}^{i} f(j, i) 其中 f指的就是LCS 最长单调下降子序列 那么对于每一个 dp[i] 我们考察他的每一个 f 即可 首先 由于 [i, i] 上 只有 v[i] 一个 显然合法 也就是 f(i, i) = 1 那 dp[i] 可以直接初始化为1 其次 在不考虑 v[i] 贡献的前提下 我们起码有 f(i - 1, i) = f(i - 1, i - 1) f(i - 2, i) = f(i - 2, i - 1) 这样 也就是 虽然以i结尾 但是 v[i] 不参与，所以这些f都... ]]></description>
-    <pubDate>Fri, 15 Aug 2025 17:21:34 GMT</pubDate>
+    <title>20250722</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250722</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250722</guid>
+    <description><![CDATA[ F 记 a + b = tot 分 n &gt;= tot 和 n &lt; tot 两类讨论。 对于 n &lt; tot 如果 n &lt;= a 那么一定无法做到；如果 n &gt; a 那么直接可以做到 输出0 对于 n &gt;= tot 我们直接令 n %= tot 表示可以经历完整的 n / tot 轮；对于剩下的余数 当 n &gt; a 时一个都不用删，当 n &lt;= a 时候必须全部删完。 D 签到。 根据题目意思，我们可以发现 当已经有现成的 a 个并列的1 我们总可以先把他变成0然后再跟前后连续的一个0组成a + 1 个并列的0 也就是说 只要找到 a 个现成的连续... ]]></description>
+    <pubDate>Mon, 18 Aug 2025 15:06:49 GMT</pubDate>
+  </item><item>
+    <title>20250724</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250724</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250724</guid>
+    <description><![CDATA[ F 我们要找出 a[i] 使得 a[i] - c * abs(i - 1). ]]></description>
+    <pubDate>Mon, 18 Aug 2025 15:06:49 GMT</pubDate>
+  </item><item>
+    <title>101</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/101</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/101</guid>
+    <description><![CDATA[ A 签到。 值得注意的是，log2 是以2为底的对数，log10 是以10为底的对数，所以 log 就是ln 了，直接输出 150 * log(n) 即可。 B 签到，找准除法的细节。 C 记 n 的最高位是 pos 那么这个数字就是 1 &lt;&lt; (pos + 1) - 1 最高位可以用 __lg(n) 来快速求得 void solve() { int n; cin &gt;&gt; n; cout &lt;&lt; (1 &lt;&lt; (__lg(n) + 1) - 1); } D 注意到区间内包含1的 gcd的结果一定是1 所以想办法把需要的数字单独划分为一个区间，不需要的数... ]]></description>
+    <pubDate>Mon, 18 Aug 2025 15:06:49 GMT</pubDate>
   </item><item>
     <title>并查集</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86</link>
@@ -24,47 +60,11 @@
     <description><![CDATA[ 并查集 顾名思义 就是对集合的合并和查询 可以在均摊 o1 的复杂度下解决此类问题 初始化 我们需要一个 father 数组 来记录各个元素所在集合 的 代表元素 假设我们有 n 个元素 从 1 开始 那么不妨如下初始化： DSU(int n): father(n + 1) { iota(all(father), 0ll); } int find(int x) 这个函数可以查询 x 所在的集合 其实就是查出 x 的代表元素 因此 有如下递归代码： int find(int x) { if (father[x] == x) return x; else { // 继续往上查找 return fi... ]]></description>
     <pubDate>Fri, 15 Aug 2025 17:21:34 GMT</pubDate>
   </item><item>
-    <title>20250724</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250724</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250724</guid>
-    <description><![CDATA[ F 我们要找出 a[i] 使得 a[i] - c * abs(i - 1). ]]></description>
-    <pubDate>Thu, 24 Jul 2025 09:42:06 GMT</pubDate>
-  </item><item>
-    <title>2125 d2</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/cf/2125-d2</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/cf/2125-d2</guid>
-    <description><![CDATA[ A B C 容斥原理。 定义一个函数 cal(x) 来 计算 1 ~ x 中 是 2 3 5 7 倍数 的总个数，最后输出 r - cal(r) - (l - 1 - cal(l - 1)) 即可。 可以直接枚举 但是这里讲一下二进制枚举的写法。 auto cal = [&amp;](int n) -&gt; int { vector&lt;int&gt; v = {2, 3, 5, 7}; int ans = 0; // 我们最后要计算 2 + 3 + 5 + 7 - （2 * 3 + 2 * 5 + ...） // 所以 奇数加 偶数减 for (int mask = 1; mask &l... ]]></description>
-    <pubDate>Wed, 23 Jul 2025 14:12:30 GMT</pubDate>
-  </item><item>
-    <title>20250723 河南萌新2</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</guid>
-    <description><![CDATA[ M 签到。 勾股定理列出来然后观察即可，最后答案是 \frac{\pi x^{2}}{8} K 签到，直接输出那个玩意就行。 I 题意等价于求二分答案的时间复杂度，如果n是2的次幂，答案就是__lg(n)；如果不是的话，就要多搜索一次。 如何高效判断 n 是否是 2 的次幂？ 可以采用 if ((n &amp; (n - 1)) != 0) ans++; 由于 &amp; 的优先级较低，这里的括号应当是一个都不能少的，可以自行尝试。 D 建图之后dfs。 dfs 的时候要注意如何高效识别 当前的节点 cur 是哪条路过来的，可以考虑建立一个前驱数组，也可以直接在 dfs 的参数上加上。 最后查... ]]></description>
-    <pubDate>Wed, 23 Jul 2025 09:43:33 GMT</pubDate>
-  </item><item>
     <title>关于</title>
     <link>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</link>
     <guid>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</guid>
     <description><![CDATA[ 一个学生，现阶段最喜欢做的事是躺着。. ]]></description>
     <pubDate>Tue, 22 Jul 2025 17:45:15 GMT</pubDate>
-  </item><item>
-    <title>415</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/ABC/415</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/ABC/415</guid>
-    <description><![CDATA[ A 签到。 B 签到。 C 一开始没有看懂题捏。 混合其实是或运算，给的 binary string 其实是第i种是危险的，由于n不大 所以其实暴力搜索即可。 bfs code void solve() { int n; cin &gt;&gt; n; string s; cin &gt;&gt; s; // danger[i] 表示状态i是否危险 vector&lt;int&gt; danger(1 &lt;&lt; n, 0); for (int i = 1; i &lt; (1 &lt;&lt; n); i++) { danger[i] = (s[i - 1] - &#039;0&#03... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 17:41:19 GMT</pubDate>
-  </item><item>
-    <title>20250722</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250722</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250722</guid>
-    <description><![CDATA[ F 记 a + b = tot 分 n &gt;= tot 和 n &lt; tot 两类讨论。 对于 n &lt; tot 如果 n &lt;= a 那么一定无法做到；如果 n &gt; a 那么直接可以做到 输出0 对于 n &gt;= tot 我们直接令 n %= tot 表示可以经历完整的 n / tot 轮；对于剩下的余数 当 n &gt; a 时一个都不用删，当 n &lt;= a 时候必须全部删完。 D 签到。 根据题目意思，我们可以发现 当已经有现成的 a 个并列的1 我们总可以先把他变成0然后再跟前后连续的一个0组成a + 1 个并列的0 也就是说 只要找到 a 个现成的连续... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 17:41:19 GMT</pubDate>
-  </item><item>
-    <title>101</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/101</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/101</guid>
-    <description><![CDATA[ A 签到。 值得注意的是，log2 是以2为底的对数，log10 是以10为底的对数，所以 log 就是ln 了，直接输出 150 * log(n) 即可。 B 签到，找准除法的细节。 C 记 n 的最高位是 pos 那么这个数字就是 1 &lt;&lt; (pos + 1) - 1 最高位可以用 __lg(n) 来快速求得 void solve() { int n; cin &gt;&gt; n; cout &lt;&lt; (1 &lt;&lt; (__lg(n) + 1) - 1); } D 注意到区间内包含1的 gcd的结果一定是1 所以想办法把需要的数字单独划分为一个区间，不需要的数... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 17:41:19 GMT</pubDate>
   </item>
     </channel>
   </rss>
