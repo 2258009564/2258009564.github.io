@@ -10,7 +10,7 @@
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250717</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250717</guid>
     <description><![CDATA[ BFIALDGH B 本题试图证明：对于任意一对 i, j （不妨认为 1 \le i \leq j ) 有：2^{i \oplus j} \geq 2^{i} + 2^{j} 先来看对于 x \leq y 能否 找到一个z使得 2^{z} \geq 2^{x}+2^{y} 我们知道 2^{i+1}=2^{i}+2^{i} 因此 令 z=y + 1 ，自然有 2^{y + 1} \geq 2^{x}+ 2^{y} 也就是说 问题转化为 对于任意的 1 \leq i \leq j 证明 i \oplus j \geq j 当 i=j 时，i \oplus j = 0 &lt; 1 \le j 无... ]]></description>
-    <pubDate>Tue, 19 Aug 2025 14:55:24 GMT</pubDate>
+    <pubDate>Tue, 19 Aug 2025 14:57:00 GMT</pubDate>
   </item><item>
     <title>415</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/ABC/415</link>
