@@ -10,19 +10,25 @@
     <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/%E6%9C%80%E7%9F%AD%E8%B7%AF/dijk</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/%E6%9C%80%E7%9F%AD%E8%B7%AF/dijk</guid>
     <description><![CDATA[ 朴素 堆优化 void solve() { int n, m; cin &gt;&gt; n &gt;&gt; m; vector&lt;int&gt; v(n + 1); // 要建立有向边 vector adj(n + 1, vector&lt;pair&lt;int, int&gt;&gt;()); for (int i = 1; i &lt;= m; i++) { int u, v, w; cin &gt;&gt; u &gt;&gt; v &gt;&gt; w; adj[u].emplace_back(w, v); } // 1 和 n 分别做源点 跑dij vector minDi... ]]></description>
-    <pubDate>Tue, 19 Aug 2025 18:38:30 GMT</pubDate>
+    <pubDate>Tue, 19 Aug 2025 18:48:42 GMT</pubDate>
+  </item><item>
+    <title>20250715</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250715</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250715</guid>
+    <description><![CDATA[ E 知识点：形如 x^2-y^2 的数字 不能被 4k+2 表示 给定两个数字 a, b 判断 num = (a+b)*(a-b) 的结果在所有这些数字的集合中的排名 打表找规律可以发现： 1 不能被表示，所有 2k+1 \ \ (k &gt; 0) 的数字都可以表示为 (k+1)^2-k^2 4 不能被表示，所有 4k 可以表示为 (k+1)^2-(k-1)^2 所有形如 4k+2 的数字都不能被表示 所以我们计算有多少个 4k+2 &lt; num 然后特别判断一下 1 和 4 即可 num 的 最小值 是 2^2-1^2=3 所以一定比1大 我们不妨这样理解：本来num在所有的正整数中就... ]]></description>
+    <pubDate>Tue, 19 Aug 2025 18:48:42 GMT</pubDate>
+  </item><item>
+    <title>20250717</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250717</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250717</guid>
+    <description><![CDATA[ BFIALDGH B 本题试图证明：对于任意一对 i, j （不妨认为 1 \le i \leq j ) 有：2^{i \oplus j} \geq 2^{i} + 2^{j} 先来看对于 x \leq y 能否 找到一个z使得 2^{z} \geq 2^{x}+2^{y} 我们知道 2^{i+1}=2^{i}+2^{i} 因此 令 z=y + 1 ，自然有 2^{y + 1} \geq 2^{x}+ 2^{y} 也就是说 问题转化为 对于任意的 1 \leq i \leq j 证明 i \oplus j \geq j 当 i=j 时，i \oplus j = 0 &lt; 1 \le j 无... ]]></description>
+    <pubDate>Tue, 19 Aug 2025 18:48:42 GMT</pubDate>
   </item><item>
     <title>index</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description><![CDATA[ Welcome to my GitHub page! 为了确保笔记的正常更新 可以使用 shift+F5 来刷新网页，以此清除缓存。. ]]></description>
     <pubDate>Tue, 19 Aug 2025 15:06:26 GMT</pubDate>
-  </item><item>
-    <title>20250717</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250717</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250717</guid>
-    <description><![CDATA[ BFIALDGH B 本题试图证明：对于任意一对 i, j （不妨认为 1 \le i \leq j ) 有：2^{i \oplus j} \geq 2^{i} + 2^{j} 先来看对于 x \leq y 能否 找到一个z使得 2^{z} \geq 2^{x}+2^{y} 我们知道 2^{i+1}=2^{i}+2^{i} 因此 令 z=y + 1 ，自然有 2^{y + 1} \geq 2^{x}+ 2^{y} 也就是说 问题转化为 对于任意的 1 \leq i \leq j 证明 i \oplus j \geq j 当 i=j 时，i \oplus j = 0 &lt; 1 \le j 无... ]]></description>
-    <pubDate>Tue, 19 Aug 2025 14:57:00 GMT</pubDate>
   </item><item>
     <title>415</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/ABC/415</link>
@@ -40,12 +46,6 @@
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/20250723-%E6%B2%B3%E5%8D%97%E8%90%8C%E6%96%B02</guid>
     <description><![CDATA[ M 签到。 勾股定理列出来然后观察即可，最后答案是 \frac{\pi x^{2}}{8} K 签到，直接输出那个玩意就行。 I 题意等价于求二分答案的时间复杂度，如果n是2的次幂，答案就是__lg(n)；如果不是的话，就要多搜索一次。 如何高效判断 n 是否是 2 的次幂？ 可以采用 if ((n &amp; (n - 1)) != 0) ans++; 由于 &amp; 的优先级较低，这里的括号应当是一个都不能少的，可以自行尝试。 D 建图之后dfs。 dfs 的时候要注意如何高效识别 当前的节点 cur 是哪条路过来的，可以考虑建立一个前驱数组，也可以直接在 dfs 的参数上加上。 最后查... ]]></description>
-    <pubDate>Mon, 18 Aug 2025 15:06:49 GMT</pubDate>
-  </item><item>
-    <title>20250715</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250715</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/2025%E6%9A%91%E6%9C%9F%E5%A4%9A%E6%A0%A1/20250715</guid>
-    <description><![CDATA[ E 知识点：形如 x^2-y^2 的数字 不能被 4k+2 表示 给定两个数字 a, b 判断 num = (a+b)*(a-b) 的结果在所有这些数字的集合中的排名 打表找规律可以发现： 1 不能被表示，所有 2k+1 \ \ (k &gt; 0) 的数字都可以表示为 (k+1)^2-k^2 4 不能被表示，所有 4k 可以表示为 (k+1)^2-(k-1)^2 所有形如 4k+2 的数字都不能被表示 所以我们计算有多少个 4k+2 &lt; num 然后特别判断一下 1 和 4 即可 num 的 最小值 是 2^2-1^2=3 所以一定比1大 我们不妨这样理解：本来num在所有的正整数中就... ]]></description>
     <pubDate>Mon, 18 Aug 2025 15:06:49 GMT</pubDate>
   </item><item>
     <title>20250722</title>
