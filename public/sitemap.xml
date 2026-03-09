@@ -38,6 +38,9 @@
     <loc>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/%E6%9C%80%E7%9F%AD%E8%B7%AF/dijk</loc>
     <lastmod>2025-08-19T18:48:42.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/%E6%A0%91%E4%B8%8A%E9%97%AE%E9%A2%98/%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84</loc>
+    <lastmod>2025-09-18T14:44:34.570Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E8%AE%BA/EXGCD</loc>
     <lastmod>2025-07-22T14:15:19.000Z</lastmod>
   </url><url>
@@ -71,6 +74,12 @@
     <loc>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/101</loc>
     <lastmod>2025-08-18T15:06:49.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B-round-109</loc>
+    <lastmod>2025-09-17T10:06:01.696Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B-round-110</loc>
+    <lastmod>2025-09-22T06:23:33.139Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/ACM-research/%E8%B4%AA%E5%BF%83%E5%A5%97%E8%B7%AF/P1</loc>
     <lastmod>2025-07-22T14:15:19.000Z</lastmod>
   </url><url>
@@ -92,8 +101,23 @@
     <loc>https://quartz.jzhao.xyz/BEGINNING-of-markdown</loc>
     <lastmod>2025-07-20T17:00:09.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Linux</loc>
+    <lastmod>2026-03-05T14:11:15.721Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Quick-LaTeX-readme</loc>
     <lastmod>2025-07-18T14:44:43.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Trie</loc>
+    <lastmod>2025-09-07T03:01:33.611Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/collage-study/Java</loc>
+    <lastmod>2025-12-29T05:57:55.654Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/collage-study/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/3-%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E7%9A%84%E7%A7%AF%E5%88%86</loc>
+    <lastmod>2026-01-06T11:31:05.975Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/collage-study/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/4-%E5%A4%8D%E7%BA%A7%E6%95%B0</loc>
+    <lastmod>2025-11-04T12:39:53.733Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/collage-study/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86</loc>
     <lastmod>2025-07-22T14:15:19.000Z</lastmod>
@@ -110,12 +134,30 @@
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2025-08-19T15:06:26.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/%E4%B8%80%E5%A0%86DP</loc>
+    <lastmod>2025-09-06T13:04:53.178Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/%E5%85%B3%E4%BA%8E</loc>
     <lastmod>2025-07-22T17:45:15.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE%EF%BC%9F%EF%BC%9F</loc>
+    <lastmod>2026-02-01T07:39:56.217Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84Java%E9%80%9F%E6%88%90%E6%96%B9%E6%A1%88</loc>
     <lastmod>2025-07-20T17:00:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%E6%89%BEgemini%E9%97%AE%E5%87%BA%E6%9D%A5%E7%9A%84stl%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88</loc>
     <lastmod>2025-07-20T17:00:09.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%E6%9C%AA%E5%91%BD%E5%90%8D-1</loc>
+    <lastmod>2025-12-01T12:41:28.975Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%E6%9C%AA%E5%91%BD%E5%90%8D-2</loc>
+    <lastmod>2026-02-03T20:01:22.637Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%E6%9C%AA%E5%91%BD%E5%90%8D</loc>
+    <lastmod>2025-08-15T19:56:44.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%E6%9D%BF%E5%AD%90</loc>
+    <lastmod>2025-09-06T13:10:00.207Z</lastmod>
   </url></urlset>
