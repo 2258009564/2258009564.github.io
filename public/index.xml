@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on Alisa的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Linux</title>
-    <link>https://quartz.jzhao.xyz/Linux</link>
-    <guid>https://quartz.jzhao.xyz/Linux</guid>
-    <description><![CDATA[ 命令的基础格式 command [-options] [parameter] 语法中的 [] 表示可选的意思，也就是非必填 command 命令本身 -options 通过该选项控制命令的执行细节 parameter 多数用于命令的指向目标 ls ls [-a -l -h] [linux路径] ls命令的参数的作用 可以指定要查看的文件夹（目录）的内容，如果不给定参数，就查看当前工作目录的内容 ls命令的选项： -a 可以展示出隐藏的内容，以 . ]]></description>
-    <pubDate>Thu, 05 Mar 2026 14:11:15 GMT</pubDate>
+    <title>张超</title>
+    <link>https://quartz.jzhao.xyz/%E5%BC%A0%E8%B6%85</link>
+    <guid>https://quartz.jzhao.xyz/%E5%BC%A0%E8%B6%85</guid>
+    <description><![CDATA[ 张超 张超 张超 张超 张超 张超. ]]></description>
+    <pubDate>Mon, 09 Mar 2026 06:29:39 GMT</pubDate>
   </item><item>
-    <title>未命名 2</title>
-    <link>https://quartz.jzhao.xyz/%E6%9C%AA%E5%91%BD%E5%90%8D-2</link>
-    <guid>https://quartz.jzhao.xyz/%E6%9C%AA%E5%91%BD%E5%90%8D-2</guid>
-    <description><![CDATA[ 这是一份非常典型的数学建模竞赛题目（类似于中国大学生数学建模竞赛CUMCM的风格）。针对你的要求，我将扮演一个参加高水平数学建模竞赛的团队角色，为你提供一份完整的解题思路、核心论文内容（含数学公式）以及Python源码说明。 由于你提供的附件数据不完整（缺少 R_G, R_B, G_R… 等文件，只有 R_R 和 目标值），在问题3的实际代码演示中，我会构建模拟数据来补全缺失部分，以确保代码逻辑是完整可运行的。 论文草案：基于色域映射与逐点校正的LED显示优化模型 摘要 (Abstract) 本文针对高性能LED显示屏在色彩还原与一致性方面的问题，建立了基于色度学的色域转换模型与亮度/色度逐点... ]]></description>
-    <pubDate>Tue, 03 Feb 2026 20:01:22 GMT</pubDate>
-  </item><item>
-    <title>学习建议？？</title>
-    <link>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE%EF%BC%9F%EF%BC%9F</link>
-    <guid>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE%EF%BC%9F%EF%BC%9F</guid>
-    <description><![CDATA[ 语法题单 排序：会用sort就行 004主要是教手写排序 时间不长，可以看一眼 021 023 024这种没有必要看 009-012讲链表不用看 013-016讲队列和栈的实现 052-055讲题 关于013-016的实现部分：cpp 有 std::queue 和 std::stack 是现成可用的 可以结合上面的语法题单学习使用 因此个人建议是自己学一下 queue 和 stack 怎么用 然后跟老师一起做052-055的题 044-048是很经典的 前缀和 差分 其中048难度比其他的高一点 可以不看 \ 随便看一眼 剩下几个要好好看 049 050 051(前置知识应该是006) 这四个... ]]></description>
-    <pubDate>Sun, 01 Feb 2026 07:39:56 GMT</pubDate>
-  </item><item>
-    <title>3 复变函数的积分</title>
-    <link>https://quartz.jzhao.xyz/collage-study/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/3-%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E7%9A%84%E7%A7%AF%E5%88%86</link>
-    <guid>https://quartz.jzhao.xyz/collage-study/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/3-%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E7%9A%84%E7%A7%AF%E5%88%86</guid>
-    <description><![CDATA[ 对于实数变量的积分，x只能在数轴上运动 因此从a到b的路径是一定的，不会产生歧义。 但对于复变函数积分 z可以在整个复平面上运动 所以大部分情况多必须写明积分路径C 才不会有歧义 这说明 复变函数的积分 接近曲线积分 因此复变函数的积分也像曲线积分一样分为三步 描述曲线：通过曲线方程确定唯一自变量，并给出该自变量的变化范围 变量替换：将积分中的所有部分都替换成上述自变量的表达式 带入计算 描述曲线 y = y(x) 把自变量确定为x 把整个积分式转换为对x的积分即可。 x=x(y) 把自变量确定为y 把整个积分式转换为对y的积分即可。 r=r(\theta) 圆弧形的曲线更适合用该方程描述，配... ]]></description>
-    <pubDate>Tue, 06 Jan 2026 11:31:05 GMT</pubDate>
-  </item><item>
-    <title>Java</title>
-    <link>https://quartz.jzhao.xyz/collage-study/Java</link>
-    <guid>https://quartz.jzhao.xyz/collage-study/Java</guid>
-    <description><![CDATA[ 什么是静态变量/成员变量/局部变量？有何性质？ 成员变量：定义在类中、方法外。随对象创建而存在，有默认初始值（如 int 为 0）。 静态变量：被 static 修饰的成员变量。属于类，全类共享一份，随类加载而加载。 局部变量：定义在方法或代码块内。必须先手动初始化才能使用，方法执行完即销毁。 什么是overload和override？有什么区别？ Overload（重载）：发生在同一个类中。方法名相同，但参数列表（个数、类型、顺序）不同。 Override（重写）：发生在父子类继承关系中。子类覆盖父类同名同参数的方法，以提供特定实现。 public、protected、default、pri... ]]></description>
-    <pubDate>Mon, 29 Dec 2025 05:57:55 GMT</pubDate>
-  </item><item>
-    <title>未命名 1</title>
-    <link>https://quartz.jzhao.xyz/%E6%9C%AA%E5%91%BD%E5%90%8D-1</link>
-    <guid>https://quartz.jzhao.xyz/%E6%9C%AA%E5%91%BD%E5%90%8D-1</guid>
-    <description><![CDATA[ 下面是一个适合《水果商城系统》数据库课程设计的大作业提纲，结构清晰、全面、合理，符合大多数高校数据库大作业的评分要求。你可以先按这个提纲搭建框架，后续再逐步填充内容。 一、数据库的背景及功能需求（约占总报告10-15%） 1.1 项目背景 水果生鲜电商的行业现状与发展趋势 传统水果销售痛点（保鲜、物流、库存管理等） 本系统开发的意义 1.2 系统目标 实现水果在线销售、库存管理、订单处理、用户管理等核心功能 1.3 用户角色分析 管理员 普通用户（顾客） 商家/供货商（可选） 配送员（可选） 1.4 主要功能需求 用户注册登录、浏览商品、搜索、加入购物车、下单支付 商品管理（上架、下架、分类、... ]]></description>
-    <pubDate>Mon, 01 Dec 2025 12:41:28 GMT</pubDate>
-  </item><item>
-    <title>4 复级数</title>
-    <link>https://quartz.jzhao.xyz/collage-study/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/4-%E5%A4%8D%E7%BA%A7%E6%95%B0</link>
-    <guid>https://quartz.jzhao.xyz/collage-study/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/4-%E5%A4%8D%E7%BA%A7%E6%95%B0</guid>
-    <description><![CDATA[ 复数列与复级数 复数列 由复数构成的数列。遵循如下格式： c_{n} = a_{n} + i \, b_{n} \end{align}$$ #### 复数列的极限 如果 $n \to \infty$ 时 复数列 $c_n$ 的极限存在，那么称其收敛。 $c_n$ 收敛的充要条件是：实数列 $a_{n}， b_n$ 都收敛： $$\begin{align} \lim_{n \to \infty} c_{n}= \lim_{n \to \infty} a_{n}+i \, \lim_{n \to \infty} b_{n} \end{align}$$ 另外， $\lim_{n \to \infty... ]]></description>
-    <pubDate>Tue, 04 Nov 2025 12:39:53 GMT</pubDate>
-  </item><item>
-    <title>牛客周赛 round 110</title>
-    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B-round-110</link>
-    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B-round-110</guid>
-    <description><![CDATA[ alisa为了督促自己学习所以写点题解，如果能帮到补题的你就再好不过了。 头文件参考 #include &lt;bits/stdc++.h&gt; using namespace std; #define int long long #define endl &#039;\n&#039; #define all(x) (x).begin(), (x).end() A 一个正整数 要么是奇数 要么是偶数；其中 偶数可以用若干个2表示，奇数可以用若干个2外加一个1来表示，本题中没有1 所以选择去掉一个2加一个3。 特别的，如果本来一个2都没有 那 去2加3 的操作 就无法成立 此时输出-1。 vo... ]]></description>
-    <pubDate>Mon, 22 Sep 2025 06:23:33 GMT</pubDate>
+    <title>学习笔记</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
+    <description><![CDATA[ 好用的小操作 求数位之和 int dig(int x) { return (x + 8) % 9 + 1; // 输入123 返回6 } 原理： 任意一个数字 x 可以写成它的各位数字的加权和，形式如下： x = a_k * 10^k + a_(k-1) * 10^(k-1) + .. ]]></description>
+    <pubDate>Mon, 09 Mar 2026 06:27:12 GMT</pubDate>
   </item><item>
     <title>树的直径</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/%E6%A0%91%E4%B8%8A%E9%97%AE%E9%A2%98/%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/%E6%A0%91%E4%B8%8A%E9%97%AE%E9%A2%98/%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84</guid>
     <description><![CDATA[ 直径被定义为 一棵树上最长的简单路径 求直径长度 随机选一个点跑最短路，找到距离最大的任意一个点d_1再跑一次最短路，找出距离最大的那个点d_2 d_{1} \to d_2 就是这棵树的直径 简单来说 就是两次dijk 参考代码： priority_queue&lt;pair&lt;int, int&gt;, vector&lt;pair&lt;int, int&gt;&gt;, greater&lt;&gt;&gt; pq; vector&lt;int&gt; dist(n + 1, 1e18); dist[1] = 0; pq.emplace(0, 1); while (pq.size()... ]]></description>
-    <pubDate>Thu, 18 Sep 2025 14:44:34 GMT</pubDate>
+    <pubDate>Mon, 09 Mar 2026 06:27:12 GMT</pubDate>
+  </item><item>
+    <title>GCD</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E8%AE%BA/GCD</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E6%95%B0%E8%AE%BA/GCD</guid>
+    <description><![CDATA[ int gcd(int a, int b) { return b ? gcd(b, a % b) : a; } 典型题目与分析 基础 GCD 题目 题目描述：给定两个整数 a 和 b，求它们的最大公约数。 考查点：直接使用欧几里得算法。 分析：这是最简单的数论题，考查递归或迭代实现欧几里得算法，时间复杂度 O(\log \min(a,b))。 GCD 与 LCM 的关系 题目描述：给定两个数，要求同时输出它们的最大公约数和最小公倍数。 考查点：利用公式 \text{lcm}(a,b) = \frac{a \times b}{\gcd(a,b)}；同时检验对大数运算和溢出问题的处理。 分析：先求... ]]></description>
+    <pubDate>Mon, 09 Mar 2026 06:27:12 GMT</pubDate>
   </item><item>
     <title>牛客周赛 round 109</title>
     <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B-round-109</link>
     <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B-round-109</guid>
     <description><![CDATA[ alisa为了督促自己学习所以写点题解，如果能帮到补题的你就再好不过了。 头文件参考 #include &lt;bits/stdc++.h&gt; using namespace std; #define int long long #define endl &#039;\n&#039; #define all(x) (x).begin(), (x).end() pbds // #pragma GCC optimize(2) #include &lt;bits/stdc++.h&gt; #include &lt;ext/pb_ds/assoc_container.hpp&gt; #includ... ]]></description>
-    <pubDate>Wed, 17 Sep 2025 10:06:01 GMT</pubDate>
+    <pubDate>Mon, 09 Mar 2026 06:27:12 GMT</pubDate>
+  </item><item>
+    <title>牛客周赛 round 110</title>
+    <link>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B-round-110</link>
+    <guid>https://quartz.jzhao.xyz/ACM-research/%E8%A1%A5%E9%A2%98/nowcoder/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B-round-110</guid>
+    <description><![CDATA[ alisa为了督促自己学习所以写点题解，如果能帮到补题的你就再好不过了。 头文件参考 #include &lt;bits/stdc++.h&gt; using namespace std; #define int long long #define endl &#039;\n&#039; #define all(x) (x).begin(), (x).end() A 一个正整数 要么是奇数 要么是偶数；其中 偶数可以用若干个2表示，奇数可以用若干个2外加一个1来表示，本题中没有1 所以选择去掉一个2加一个3。 特别的，如果本来一个2都没有 那 去2加3 的操作 就无法成立 此时输出-1。 vo... ]]></description>
+    <pubDate>Mon, 09 Mar 2026 06:27:12 GMT</pubDate>
+  </item><item>
+    <title>Linux</title>
+    <link>https://quartz.jzhao.xyz/Linux</link>
+    <guid>https://quartz.jzhao.xyz/Linux</guid>
+    <description><![CDATA[ 命令的基础格式 command [-options] [parameter] 语法中的 [] 表示可选的意思，也就是非必填 command 命令本身 -options 通过该选项控制命令的执行细节 parameter 多数用于命令的指向目标 ls ls [-a -l -h] [linux路径] ls命令的参数的作用 可以指定要查看的文件夹（目录）的内容，如果不给定参数，就查看当前工作目录的内容 ls命令的选项： -a 可以展示出隐藏的内容，以 . ]]></description>
+    <pubDate>Mon, 09 Mar 2026 06:27:12 GMT</pubDate>
+  </item><item>
+    <title>Trie</title>
+    <link>https://quartz.jzhao.xyz/Trie</link>
+    <guid>https://quartz.jzhao.xyz/Trie</guid>
+    <description><![CDATA[ // #pragma GCC optimize(2) #include &lt;bits/stdc++.h&gt; using namespace std; #define int long long #define endl &#039;\n&#039; #define all(x) (x).begin(), (x).end() constexpr int MOD = 1e9 + 7; // -9.2e18 ~ 9.2e18 const int N = 1e6 + 10; vector trie(N, vector&lt;int&gt;(26)); vector&lt;int&gt; p(N... ]]></description>
+    <pubDate>Mon, 09 Mar 2026 06:27:12 GMT</pubDate>
+  </item><item>
+    <title>Java</title>
+    <link>https://quartz.jzhao.xyz/collage-study/Java</link>
+    <guid>https://quartz.jzhao.xyz/collage-study/Java</guid>
+    <description><![CDATA[ 什么是静态变量/成员变量/局部变量？有何性质？ 成员变量：定义在类中、方法外。随对象创建而存在，有默认初始值（如 int 为 0）。 静态变量：被 static 修饰的成员变量。属于类，全类共享一份，随类加载而加载。 局部变量：定义在方法或代码块内。必须先手动初始化才能使用，方法执行完即销毁。 什么是overload和override？有什么区别？ Overload（重载）：发生在同一个类中。方法名相同，但参数列表（个数、类型、顺序）不同。 Override（重写）：发生在父子类继承关系中。子类覆盖父类同名同参数的方法，以提供特定实现。 public、protected、default、pri... ]]></description>
+    <pubDate>Mon, 09 Mar 2026 06:27:12 GMT</pubDate>
+  </item><item>
+    <title>3 复变函数的积分</title>
+    <link>https://quartz.jzhao.xyz/collage-study/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/3-%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E7%9A%84%E7%A7%AF%E5%88%86</link>
+    <guid>https://quartz.jzhao.xyz/collage-study/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/3-%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E7%9A%84%E7%A7%AF%E5%88%86</guid>
+    <description><![CDATA[ 对于实数变量的积分，x只能在数轴上运动 因此从a到b的路径是一定的，不会产生歧义。 但对于复变函数积分 z可以在整个复平面上运动 所以大部分情况多必须写明积分路径C 才不会有歧义 这说明 复变函数的积分 接近曲线积分 因此复变函数的积分也像曲线积分一样分为三步 描述曲线：通过曲线方程确定唯一自变量，并给出该自变量的变化范围 变量替换：将积分中的所有部分都替换成上述自变量的表达式 带入计算 描述曲线 y = y(x) 把自变量确定为x 把整个积分式转换为对x的积分即可。 x=x(y) 把自变量确定为y 把整个积分式转换为对y的积分即可。 r=r(\theta) 圆弧形的曲线更适合用该方程描述，配... ]]></description>
+    <pubDate>Mon, 09 Mar 2026 06:27:12 GMT</pubDate>
   </item>
     </channel>
   </rss>
